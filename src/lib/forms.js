@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
+import { marked } from "marked";
 
 const formsDirectory = path.join(process.cwd(), "content", "forms");
 
@@ -61,4 +62,24 @@ export const getAllForms = (lang = 'tr') => {
     const form = readFormFile(path.join(formsDirectory, file));
     return normalizeForm(form);
   }).sort((a, b) => a.order - b.order);
+};
+
+export const getFormBySlug = (slug, lang = 'tr') => {
+  if (lang === 'en' || lang === 'ru') {
+    return getAllForms(lang).find((f) => f.slug === slug) || null;
+  }
+
+  if (!fs.existsSync(formsDirectory)) return null;
+
+  const files = fs.readdirSync(formsDirectory).filter((file) => file.endsWith(".md"));
+  for (const file of files) {
+    const form = readFormFile(path.join(formsDirectory, file));
+    if (form.slug === slug) {
+      const normalized = normalizeForm(form);
+      normalized.contentHtml = marked.parse(form.content || "");
+      return normalized;
+    }
+  }
+
+  return null;
 };
