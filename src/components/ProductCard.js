@@ -16,9 +16,12 @@ export default function ProductCard({ product, lang = 'tr' }) {
       <p className="subhead" style={{ marginTop: "8px" }}>
         {product.description}
       </p>
-      <Link className="button button--ghost" href={`/${lang}/urunlerimiz/${product.slug}`}>
-        {lang === 'tr' ? 'Detayları gör' : lang === 'en' ? 'View details' : 'Подробнее'}
-      </Link>
+
+      <div className="card__footer" style={{ marginTop: 16 }}>
+        <Link className="button button--ghost" href={`/${lang}/urunlerimiz/${product.slug}`}>
+          {lang === 'tr' ? 'Detayları gör' : lang === 'en' ? 'View details' : 'Подробнее'}
+        </Link>
+      </div>
     </article>
   );
 }
