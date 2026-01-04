@@ -1,0 +1,106 @@
+[
+    {
+        "question": "FIP hastalığı öldürücü müdür?",
+        "answer": "FIP hastalığı müdahale edilmezse öldüren bir hastalıktır."
+    },
+    {
+        "question": "FIP hastalığı bulaşıcı mıdır?",
+        "answer": "Aynı yere dışkılayan kedilerde bulaşma riski vardır. Dışkılarını kapatmaları esnasında FIP hastalığı olan bir kedinin dışkısındaki virüs patilerine bulaşır, temizlenirken patilerinden ağızlarına oradan da beslendikleri kaplara bulaşır."
+    },
+    {
+        "question": "Tedaviye nasıl başlayabilirim?",
+        "answer": "Veteriner hekim görüşü yada FIP hastalığı belirtileri gösterir testler sonucunda konulan teşhis ile başlamanız gerekir."
+    },
+    {
+        "question": "Kedimin iyileşmesi ne kadar sürer?",
+        "answer": "FIP hastalığı tedavi süresi minimum 12 haftadır. Nörolojik ve oküler formda formda süre uzayabilir. Daha az sürede FIP hastalığı tedavisi mümkün değildir."
+    },
+    {
+        "question": "FIP hastalığı testi var mıdır?",
+        "answer": "FIP hastalığının kesin bir testi yoktur. Ancak kan tahlili, ultrason ve klinik belirtiler birleştirilerek teşhis konulur."
+    },
+    {
+        "question": "Rivalta testi nedir?",
+        "answer": "Karın veya göğüs boşluğunda biriken sıvıdan örnek alınarak yapılan, FIP teşhisinde %90 üzerinde doğruluk payı olan hızlı bir testtir."
+    },
+    {
+        "question": "Kediye sokakta tedavi yapabilir miyim?",
+        "answer": "Hayır, tedavinin düzenli olarak yapılması gerektiğinden tedavi süresince kedinin uygun bir yerde tutulması gerekir."
+    },
+    {
+        "question": "Ürünler kedime ağır gelir mi?",
+        "answer": "Hayır, ürünler düzenli verilmezse hastalık ilerler kedinin durumu kötüleşir. Yetersiz doz sakıncalıdır."
+    },
+    {
+        "question": "Ürünler kedimin iç organlarına zarar verir mi?",
+        "answer": "Hayır, ürünler herhangi bir organa zarar vermez. İç organlara zarar veren FIP hastalığına sebep olan virüsün kendisidir."
+    },
+    {
+        "question": "Antibiyotik kullanmak gerekirse tedaviyi kesmeli miyim?",
+        "answer": "Hayır, tedavi esnasında antibiyotikler kullanılabilir, yasaklı olmayan antibiyotikler kullanılırken ilaçlar ağır gelir denilerek FIP hastalığı tedavisinden vazgeçilmemeli tedaviye ara verilmemelidir."
+    },
+    {
+        "question": "Yasaklı antibiyotikler nelerdir?",
+        "answer": "Baytril başta olmak üzere florokinon grubu antibiyotiklerdir."
+    },
+    {
+        "question": "Tedavi ne zaman bitiyor?",
+        "answer": "12 haftalık tedavi süresi tamamlandıktan sonra yapılacak testler ve veteriner hekim görüşü ile tedavi süresi uzatılır yada sona erdirilir."
+    },
+    {
+        "question": "Evde başka kedilerim var onlara bulaşır mı?",
+        "answer": "FIP virüsü dışkıda bulunur. FIP hastalığı tedavisine başlanan kedinin diğer kedilerden ayrı tutulması, aynı tuvaleti ve mama-su kaplarını paylaşmamaları gerekir."
+    },
+    {
+        "question": "FIP hastalığı olan kedilerim bir arada kalabilir mi?",
+        "answer": "Tedavi gören FIP'li kediler birbirlerine virüs bulaştırmazlar, ancak farklı virüs mutasyonları taşıyabilecekleri riski göz ardı edilmemelidir. İdeal olan her hastanın ayrı izole edilmesidir."
+    },
+    {
+        "question": "Kedime bağışıklık güçlendirici verebilir miyim?",
+        "answer": "Hayır, FIP virüsü makrofajları (bağışıklık hücrelerini) enfekte ederek çoğalır. Bağışıklık güçlendiriciler makrofaj sayısını artırarak virüsün yayılmasını hızlandırabilir."
+    },
+    {
+        "question": "Kedime her mamayı verebilir miyim?",
+        "answer": "Tedavi sürecinde yüksek proteinli, kaliteli mamalar tercih edilmelidir. Şeker ve karbonhidrat oranı yüksek mamalardan kaçınılmalıdır."
+    },
+    {
+        "question": "Kedim su içmiyor ne yapmalıyım?",
+        "answer": "Dehidrasyon FIP hastaları için çok tehlikelidir. Kedi su içmiyorsa deri altı serum takviyesi veya şırınga ile su desteği sağlanmalıdır."
+    },
+    {
+        "question": "Islak FIP ve Kuru FIP farkı nedir?",
+        "answer": "Islak FIP'te damar hasarına bağlı olarak vücut boşluklarında sıvı birikir. Kuru FIP'te ise sıvı birikimi olmaz ancak organlarda granülom adı verilen lezyonlar oluşur. Nörolojik ve oküler formlar genellikle kuru FIP sınıfındadır ancak ıslak formla da görülebilir."
+    },
+    {
+        "question": "Kedim neden FIP oldu?",
+        "answer": "Kedilerin %90'ı koronavirüs taşır. Stres, bağışıklık düşüklüğü veya genetik faktörlerle bu virüs mutasyona uğrayarak FIP'e dönüşür."
+    },
+    {
+        "question": "Kedim kum yiyor ne yapmalıyım?",
+        "answer": "Kansızlık (anemi) durumunda kediler bazen kum yeme davranışı gösterebilir. Bentonit kum yerine çam peleti kullanılmalıdır çünkü bentonit bağırsaklarda tıkanmaya yol açabilir."
+    },
+    {
+        "question": "Kedim idrarını yapmıyor, neden?",
+        "answer": "Nörolojik tutulum veya böbrek hasarı nedeniyle idrar yapamama görülebilir. Mesane doluysa veteriner hekim tarafından boşaltılmalıdır."
+    },
+    {
+        "question": "Kedimin bacakları ve kalçası sürekli ıslak ve idrar kaçırıyor, neden?",
+        "answer": "Nörolojik FIP'te sinir hasarına bağlı olarak idrar tutamama (inkontinans) görülebilir. Bu durum genellikle tedavi ilerledikçe düzelir."
+    },
+    {
+        "question": "Kedim kaka yapmıyor, neden?",
+        "answer": "Hareketsizlik, az su tüketimi ve nörolojik hasar kabızlığa neden olabilir. Veteriner hekimin önereceği laktuloz şuruplar kullanılabilir."
+    },
+    {
+        "question": "Kedimin ishali geçmiyor, ne yapabilirim?",
+        "answer": "FIP virüsü bağırsaklara yerleştiğinde inatçı ishal görülebilir. Probiyotik desteği ve haşlanmış tavuk diyeti denenebilir, ancak asıl çözüm FIP tedavisidir."
+    },
+    {
+        "question": "Kedimin kakasını tutamıyor neden?",
+        "answer": "Nörolojik hasar nedeniyle anal sfinkter kontrolü kaybolabilir. Ped kullanımı ve hijyen önemlidir. Sinirler iyileştikçe düzelme görülür."
+    },
+    {
+        "question": "Kedimin idrar ve dışkı tutamama durumu düzelir mi?",
+        "answer": "Sinir hasarının derecesine göre tedavi ile büyük ölçüde düzelme sağlanır ancak sinir dokusunun iyileşmesi zaman alır, sabırlı olunmalıdır."
+    }
+]

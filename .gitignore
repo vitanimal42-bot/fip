@@ -39,3 +39,13 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# custom
+/backups
+/bilgi_formları
+/bilgi_formları_ing
+/source
+*.txt
+pdf_list*.txt
+tr_pdf_names.txt
+en_pdf_names.txt

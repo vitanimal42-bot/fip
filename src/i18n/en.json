@@ -1,0 +1,77 @@
+{
+    "common": {
+        "name": "FIPGL23",
+        "tagline": "Scientific Solutions in FIP Treatment",
+        "legalNote": "These products are not a medicine. Should be used with veterinarian advice.",
+        "pdfDownload": "Download PDF",
+        "prepared": "Preparing..."
+    },
+    "nav": {
+        "home": "Home",
+        "about": "About Us",
+        "fipNedir": "What is FIP?",
+        "treatment": "FIP Treatment",
+        "products": "Products",
+        "forms": "Information Forms",
+        "faq": "F.A.Q.",
+        "contact": "Contact"
+    },
+    "home": {
+        "heroTitle": "FIP is No Longer Helpless",
+        "heroSubtitle": "Improve your cat's quality of life with scientifically based FIPGL23 products.",
+        "ctaTitle": "Still Have Questions?",
+        "ctaSubtitle": "Our expert team is ready to help you."
+    },
+    "footer": {
+        "description": "We bring together scientific knowledge and reliable communication in the treatment of FIP disease.",
+        "pages": "Pages",
+        "resources": "Resources",
+        "returnPolicy": "Return Policy"
+    },
+    "contact": {
+        "title": "Contact",
+        "subtitle": "How can we help you?",
+        "formTitle": "Contact Form",
+        "submitLabel": "Send Message",
+        "methods": {
+            "email": "E-mail",
+            "phone": "Phone",
+            "social": "Social Media"
+        },
+        "fields": {
+            "firstName": "First Name",
+            "lastName": "Last Name",
+            "phone": "GSM",
+            "subject": "Select Subject",
+            "email": "E-mail Address",
+            "message": "Comments / Questions"
+        },
+        "subjects": [
+            "Product Info",
+            "Order",
+            "Other"
+        ]
+    },
+    "returnPolicy": {
+        "title": "Product Return Policy",
+        "intro": "Customer satisfaction and trust are our priorities.",
+        "items": [
+            {
+                "title": "Return Period",
+                "description": "You can return your products within 7 days without specifying any reason."
+            },
+            {
+                "title": "Conditions",
+                "description": "The packaging of the products to be returned must be unopened, undamaged, and in resalable condition."
+            },
+            {
+                "title": "Refund",
+                "description": "After the return is approved, your payment will be refunded to your original payment method within 3-5 business days."
+            },
+            {
+                "title": "Shipping",
+                "description": "Except for faulty or defective products, the return shipping cost belongs to the buyer."
+            }
+        ]
+    }
+}

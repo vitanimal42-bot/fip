@@ -1,0 +1,77 @@
+{
+    "common": {
+        "name": "FIPGL23",
+        "tagline": "FIP Tedavisinde Bilimsel Çözümler",
+        "legalNote": "Bu ürünler bir ilaç değildir. Veteriner hekim tavsiyesi ile kullanılmalıdır.",
+        "pdfDownload": "PDF İndir",
+        "prepared": "Hazırlanıyor..."
+    },
+    "nav": {
+        "home": "Anasayfa",
+        "about": "Hakkımızda",
+        "fipNedir": "FIP Nedir?",
+        "treatment": "FIP Tedavisi",
+        "products": "Ürünlerimiz",
+        "forms": "Bilgi Formları",
+        "faq": "S.S. Sorular",
+        "contact": "İletişim"
+    },
+    "home": {
+        "heroTitle": "FIP Artık Çaresiz Değil",
+        "heroSubtitle": "Bilimsel temelli FIPGL23 ürünleri ile kedinizin yaşam kalitesini artırın.",
+        "ctaTitle": "Hala Sorularınız mı Var?",
+        "ctaSubtitle": "Uzman ekibimiz size yardımcı olmaya hazır."
+    },
+    "footer": {
+        "description": "FIP hastalığının tedavisinde bilimsel bilgi ve güvenilir iletişimi bir araya getiriyoruz.",
+        "pages": "Sayfalar",
+        "resources": "Kaynaklar",
+        "returnPolicy": "Ürün İade Politikası"
+    },
+    "contact": {
+        "title": "İletişim",
+        "subtitle": "Size nasıl yardımcı olabiliriz?",
+        "formTitle": "İletişim Formu",
+        "submitLabel": "Mesajı Gönder",
+        "methods": {
+            "email": "E-posta",
+            "phone": "Telefon",
+            "social": "Sosyal Medya"
+        },
+        "fields": {
+            "firstName": "Adınız",
+            "lastName": "Soyadınız",
+            "phone": "GSM",
+            "subject": "Konu Seçin",
+            "email": "E-posta Adresi",
+            "message": "Yorumlar / Sorular"
+        },
+        "subjects": [
+            "Ürün Bilgisi",
+            "Sipariş",
+            "Diğer"
+        ]
+    },
+    "returnPolicy": {
+        "title": "Ürün İade Politikası",
+        "intro": "Müşteri memnuniyeti ve güven önceliğimizdir.",
+        "items": [
+            {
+                "title": "İade Süresi",
+                "description": "Herhangi bir sebep belirtmeksizin ürünlerinizi 7 gün içerisinde iade edebilirsiniz."
+            },
+            {
+                "title": "Koşullar",
+                "description": "İade edilecek ürünlerin ambalajının açılmamış, bozulmamış ve tekrar satılabilir durumda olması gerekmektedir."
+            },
+            {
+                "title": "Geri Ödeme",
+                "description": "İade onaylandıktan sonra ödemeniz 3-5 iş günü içerisinde orijinal ödeme yönteminize iade edilir."
+            },
+            {
+                "title": "Kargo",
+                "description": "Hatalı veya kusurlu ürünler dışında, iade kargo ücreti alıcıya aittir."
+            }
+        ]
+    }
+}

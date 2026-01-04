@@ -1,0 +1,106 @@
+[
+    {
+        "question": "Is FIP fatal?",
+        "answer": "FIP is a fatal disease if not treated."
+    },
+    {
+        "question": "Is FIP contagious?",
+        "answer": "There is a risk of transmission among cats that defecate in the same place. While burying their feces, the virus in the feces of a cat with FIP gets on their paws, and then transfers to their mouths and feeding bowls while grooming."
+    },
+    {
+        "question": "How can I start the treatment?",
+        "answer": "You should start with a diagnosis made by a veterinarian or through tests showing symptoms of FIP."
+    },
+    {
+        "question": "How long does it take for my cat to recover?",
+        "answer": "The treatment period for FIP is a minimum of 12 weeks. The duration may be extended in neurological and ocular forms. Treatment in less time is not possible."
+    },
+    {
+        "question": "Is there a specific test for FIP?",
+        "answer": "There is no definitive test for FIP. Diagnosis is made by combining blood tests, ultrasound, and clinical symptoms."
+    },
+    {
+        "question": "What is the Rivalta test?",
+        "answer": "It is a rapid test performed on fluid samples from the abdominal or chest cavity, with an accuracy rate of over 90% in diagnosing FIP."
+    },
+    {
+        "question": "Can I treat my cat on the street?",
+        "answer": "No, because the treatment must be administered regularly, the cat must be kept in a suitable place during the treatment period."
+    },
+    {
+        "question": "Will the products be too heavy for my cat?",
+        "answer": "No, if the products are not given regularly, the disease progresses and the cat's condition worsens. Insufficient dosage is harmful."
+    },
+    {
+        "question": "Will the products damage my cat's internal organs?",
+        "answer": "No, the products do not damage any organs. It is the virus causing FIP itself that damages internal organs."
+    },
+    {
+        "question": "Should I stop treatment if antibiotics are needed?",
+        "answer": "No, antibiotics can be used during treatment. FIP treatment should not be abandoned or interrupted because of the belief that the drugs will be too heavy when using non-prohibited antibiotics."
+    },
+    {
+        "question": "What are the prohibited antibiotics?",
+        "answer": "Fluoroquinolone group antibiotics, primarily Baytril."
+    },
+    {
+        "question": "When does the treatment end?",
+        "answer": "After the 12-week treatment period is completed, the duration is extended or ended based on tests and the veterinarian's opinion."
+    },
+    {
+        "question": "I have other cats at home, will it be transmitted to them?",
+        "answer": "The FIP virus is found in feces. The cat undergoing FIP treatment must be kept separate from other cats and should not share the same litter box or food/water bowls."
+    },
+    {
+        "question": "Can my cats with FIP stay together?",
+        "answer": "Cats with FIP undergoing treatment do not transmit the virus to each other, but the risk that they carry different virus mutations should not be ignored. Ideally, each patient should be isolated separately."
+    },
+    {
+        "question": "Can I give my cat immune boosters?",
+        "answer": "No, the FIP virus multiplies by infecting macrophages (immune cells). Immune boosters can increase the number of macrophages and speed up the spread of the virus."
+    },
+    {
+        "question": "Can I give my cat any food?",
+        "answer": "High-protein, quality foods should be preferred during the treatment process. Foods high in sugar and carbohydrates should be avoided."
+    },
+    {
+        "question": "My cat is not drinking water, what should I do?",
+        "answer": "Dehydration is very dangerous for FIP patients. If the cat is not drinking water, subcutaneous fluid support or water support via syringe should be provided."
+    },
+    {
+        "question": "What is the difference between wet FIP and dry FIP?",
+        "answer": "In wet FIP, fluid accumulates in body cavities due to vascular damage. In dry FIP, there is no fluid accumulation, but lesions called granulomas form in the organs. Neurological and ocular forms are usually in the dry FIP category but can also be seen with the wet form."
+    },
+    {
+        "question": "Why did my cat get FIP?",
+        "answer": "90% of cats carry coronavirus. Due to stress, low immunity, or genetic factors, this virus mutates into FIP."
+    },
+    {
+        "question": "My cat is eating litter, what should I do?",
+        "answer": "Cats may sometimes show litter-eating behavior in case of anemia. Pine pellets should be used instead of bentonite litter because bentonite can cause intestinal blockage."
+    },
+    {
+        "question": "My cat is not urinating, why?",
+        "answer": "Inability to urinate may be seen due to neurological involvement or kidney damage. If the bladder is full, it should be emptied by a veterinarian."
+    },
+    {
+        "question": "My cat's legs and hips are constantly wet and it's leaking urine, why?",
+        "answer": "In neurological FIP, urinary incontinence can be seen due to nerve damage. This situation usually improves as treatment progresses."
+    },
+    {
+        "question": "My cat is not defecating, why?",
+        "answer": "Inactivity, low water consumption, and neurological damage can cause constipation. Lactulose syrups recommended by the veterinarian can be used."
+    },
+    {
+        "question": "My cat's diarrhea won't go away, what can I do?",
+        "answer": "Persistent diarrhea can be seen when the FIP virus settles in the intestines. Probiotic support and a boiled chicken diet can be tried, but the real solution is FIP treatment."
+    },
+    {
+        "question": "My cat can't hold its feces, why?",
+        "answer": "Anal sphincter control can be lost due to neurological damage. Pad use and hygiene are important. Improvement is seen as nerves heal."
+    },
+    {
+        "question": "Will the urinary and fecal incontinence improve?",
+        "answer": "Depending on the degree of nerve damage, significant improvement is achieved with treatment, but healing of nerve tissue takes time; one must be patient."
+    }
+]
