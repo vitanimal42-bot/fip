@@ -27,6 +27,8 @@ export async function generateMetadata({ params }) {
   };
 }
 
+import WhatsAppButton from "@/components/WhatsAppButton";
+
 export default async function LocaleLayout({ children, params }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
@@ -42,6 +44,7 @@ export default async function LocaleLayout({ children, params }) {
         <Header dict={dict} lang={lang} productLinks={productLinks} />
         <main>{children}</main>
         <Footer dict={dict} lang={lang} />
+        <WhatsAppButton />
       </body>
     </html>
   );
