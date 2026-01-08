@@ -4,8 +4,7 @@ name: Enjektable
 badge: Enjeksiyon
 description: "Enjekte edilebilir form ürünler, şırınga aracılığıyla deri altına uygulanır ve hızlı etki sağlar."
 details:
-  - "Kediye ağız yoluyla ürün vermenin zor olduğu durumlarda tercih edilebilir."
-  - "1 Flakon 9ml ürün içermektedir"
+  - "Enjektabl ürünler; FIP tedavisinde hızlı etki, yüksek biyoyararlanım ve kesin doz kontrolü sağlayarak özellikle tedavinin kritik ve erken dönemlerinde önemli avantajlar sunar. Ağır vakalarda yutma refleksinin olmadığı, kedinin yemek yemediği veya oral alımın mümkün olmadığı durumlarda ise tedavinin kesintisiz, güvenli ve etkili şekilde sürdürülebilmesi için vazgeçilmez bir uygulama formudur."
 images:
   - /assets/source/vial2.png
   - /assets/source/vial3.png
@@ -46,36 +45,68 @@ dosageNote: "Tedavi süresi minimum 90 gündür. 24 saatte bir deri altı enjeks
 priceList:
   - name: "FIPGL23 Enjektable Form"
     weight: "2 Adet"
-    unit: "Paket"
+    unit: "Flakon"
     price: "5800 TL"
   - name: "FIPGL23 Enjektable Form"
     weight: "4 Adet"
-    unit: "Paket"
+    unit: "Flakon"
     price: "10400 TL"
   - name: "FIPGL23 Enjektable Form"
     weight: "6 Adet"
-    unit: "Paket"
+    unit: "Flakon"
     price: "14400 TL"
   - name: "FIPGL23 Enjektable Form"
     weight: "8 Adet"
-    unit: "Paket"
+    unit: "Flakon"
     price: "17600 TL"
   - name: "FIPGL23 Enjektable Form"
     weight: "10 Adet"
-    unit: "Paket"
+    unit: "Flakon"
     price: "20000 TL"
   - name: "FIPGL23 Enjektable Form"
     weight: "12 Adet"
-    unit: "Paket"
+    unit: "Flakon"
     price: "21600 TL"
   - name: "FIPGL23 Enjektable Form"
     weight: "1 Adet"
-    unit: "Paket"
+    unit: "Flakon"
     price: "2900 TL"
 order: 3
 ---
-## Enjektable Form Ne demektir?
+FIP (Feline Infectious Peritonitis), özellikle ağır ve ilerlemiş vakalarda hızlı, kontrollü ve güvenilir bir tedavi yaklaşımı gerektirir. Bu süreçte kullanılan ürünün uygulama formu, tedavinin sürdürülebilirliği açısından kritik öneme sahiptir.
 
-Enjekte edilebilir form ürünler, genellikle sıvı haldeki aktif bileşenlerin şırınga aracılığıyla doğrudan vücuda uygulanmasını içerir. Deri altı enjeksiyon yoluyla verilir ve etkisini doğrudan hedef bölgeye veya sistematik olarak gösterir.
+### Ağır vakalarda oral alım mümkün olmadığında güvenli kullanım
+İleri FIP vakalarında kedilerde:
+* Yutma refleksinin zayıflaması veya kaybolması
+* İştahsızlık ve yemek yememe
+* Ağızdan ilaç uygulamasına direnç
+sıklıkla gözlenebilir.
 
-Özellikle kediye ağız yoluyla veya diğer formlarda ürün vermenin zor olduğu durumlarda, enjekte edilebilir form ürünler etkili ve hızlı bir tedavi seçeneği sunabilir. Kullanım talimatlarına uygun olarak dozaj ayarlanmalı ve FIPGL23'ün tavsiyeleri doğrultusunda kullanılmalıdır.
+🔹 Bu gibi durumlarda enjektabl ürünler, oral alıma ihtiyaç duymadan tedavinin kesintisiz sürdürülmesine olanak tanır ve hayati bir alternatif sunar.
+
+### Gastrointestinal sistemden bağımsız etki
+Enjektabl uygulama, gastrointestinal sistemi bypass ederek:
+* Kusma ve regürjitasyondan etkilenmeden
+* Emilim kaybı olmadan
+* Doğrudan sistemik dolaşıma katılım sağlar
+Bu özellik, ağır klinik tabloda tedavi etkinliğini artırır.
+
+### Hızlı ve öngörülebilir biyoyararlanım
+Enjektabl form:
+* Etkin maddenin hızlı dolaşıma girmesini sağlar
+* Klinik yanıtın daha erken gözlemlenmesine katkı sunar
+* Emilim farklılıklarını minimize eder
+Özellikle genel durumu bozuk hastalarda bu avantaj kritiktir.
+
+### Doz kontrolü ve klinik güvenlik
+Enjektabl ürünler:
+* Kesin ve kontrollü doz uygulanmasına olanak tanır
+* Doz kaybı ve düzensiz alım riskini ortadan kaldırır
+* Veteriner hekim kontrolünde maksimum güvenlik sağlar
+
+### Tedavinin kritik ve başlangıç dönemlerinde etkinlik
+Enjektabl form, özellikle:
+* Hastalığın akut ve ağır seyirli dönemlerinde
+* Oral ilaç kullanımının mümkün olmadığı durumlarda
+* Tedaviye hızlı başlanması gereken vakalarda
+önemli bir avantaj sağlar.

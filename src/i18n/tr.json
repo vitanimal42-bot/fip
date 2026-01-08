@@ -2,7 +2,7 @@
     "common": {
         "name": "FIPGL23",
         "tagline": "FIP Tedavisinde Bilimsel Çözümler",
-        "legalNote": "Bu ürünler bir ilaç değildir. Veteriner hekim tavsiyesi ile kullanılmalıdır.",
+        "legalNote": " ",
         "pdfDownload": "PDF İndir",
         "prepared": "Hazırlanıyor..."
     },
@@ -18,14 +18,14 @@
     },
     "home": {
         "heroTitle": "FIP Artık Çaresiz Değil",
-        "heroSubtitle": "Bilimsel temelli FIPGL23 ürünleri ile kedinizin yaşam kalitesini artırın.",
+        "heroSubtitle": "FIP tedavisinde klinik başarı; 90 gün süreyle doğru dozda uygulamaya bağlıdır.",
         "ctaTitle": "Hala Sorularınız mı Var?",
         "ctaSubtitle": "Uzman ekibimiz size yardımcı olmaya hazır."
     },
     "footer": {
         "description": "FIP hastalığının tedavisinde bilimsel bilgi ve güvenilir iletişimi bir araya getiriyoruz.",
-        "pages": "Sayfalar",
-        "resources": "Kaynaklar",
+        "pages": "Hızlı Erişim",
+        "resources": "Sosyal Medya",
         "returnPolicy": "Ürün İade Politikası"
     },
     "contact": {
@@ -57,21 +57,22 @@
         "intro": "Müşteri memnuniyeti ve güven önceliğimizdir.",
         "items": [
             {
-                "title": "İade Süresi",
-                "description": "Herhangi bir sebep belirtmeksizin ürünlerinizi 7 gün içerisinde iade edebilirsiniz."
+                "title": "Ürün Saklama Koşulları",
+                "description": "İade edilecek ürünlerin açılmamış olması gerekmektedir. Flokon şişeler güneş ışığından uzak, serin ve gölgeli bir ortamda muhafaza edilmelidir. Kapsüller, likit ürünler ve toz ürünler oda sıcaklığında saklanmalıdır."
             },
             {
-                "title": "Koşullar",
-                "description": "İade edilecek ürünlerin ambalajının açılmamış, bozulmamış ve tekrar satılabilir durumda olması gerekmektedir."
+                "title": "Orijinal Durum ve Ambalaj",
+                "description": "Ürünlerin iadesi için satın alındığı durumda ve orijinal ambalajlarında olmaları gerekmektedir. Açılmış veya kısmen kullanılmış ürünlerin iadesi kabul edilmemektedir."
             },
             {
-                "title": "Geri Ödeme",
-                "description": "İade onaylandıktan sonra ödemeniz 3-5 iş günü içerisinde orijinal ödeme yönteminize iade edilir."
+                "title": "İade Süreci",
+                "description": "İade edilen ürünleriniz incelendikten sonra geri ödeme durumu hakkında size bilgilendirme yapılacaktır. Geri ödeme tutarı, banka hesabınıza transfer edilecektir. Ancak, paketleme, işçilik ve kargo ücretleri geri ödeme tutarından kesinti yapılarak düşülecektir."
             },
             {
-                "title": "Kargo",
-                "description": "Hatalı veya kusurlu ürünler dışında, iade kargo ücreti alıcıya aittir."
+                "title": "Kargo Masrafları",
+                "description": "Ürünlerinizi iade etmek için kendi kargo masraflarınızı karşılamaktan sorumlusunuz."
             }
-        ]
+        ],
+        "footerNote": "Yukarıdaki şartlara uygun olarak iade işlemlerini gerçekleştirebilirsiniz. Daha fazla bilgi veya destek için lütfen bizimle iletişime geçiniz."
     }
 }

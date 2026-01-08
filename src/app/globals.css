@@ -348,6 +348,7 @@ h4 {
 .nav__links {
   display: flex;
   gap: 40px;
+  align-items: center;
 }
 
 .nav__link {
@@ -382,7 +383,8 @@ h4 {
   position: relative;
 }
 
-.nav__dropdown>button {
+.nav__dropdown > .nav__link,
+.nav__dropdown > button {
   background: none;
   border: none;
   font: inherit;

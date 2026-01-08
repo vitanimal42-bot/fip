@@ -2,7 +2,7 @@
     "common": {
         "name": "FIPGL23",
         "tagline": "Scientific Solutions in FIP Treatment",
-        "legalNote": "These products are not a medicine. Should be used with veterinarian advice.",
+        "legalNote": " ",
         "pdfDownload": "Download PDF",
         "prepared": "Preparing..."
     },
@@ -18,15 +18,15 @@
     },
     "home": {
         "heroTitle": "FIP is No Longer Helpless",
-        "heroSubtitle": "Improve your cat's quality of life with scientifically based FIPGL23 products.",
+        "heroSubtitle": "Clinical success in FIP treatment depends on correct dose application for 90 days.",
         "ctaTitle": "Still Have Questions?",
         "ctaSubtitle": "Our expert team is ready to help you."
     },
     "footer": {
         "description": "We bring together scientific knowledge and reliable communication in the treatment of FIP disease.",
-        "pages": "Pages",
-        "resources": "Resources",
-        "returnPolicy": "Return Policy"
+        "pages": "Quick Access",
+        "resources": "Social Media",
+        "returnPolicy": "Product Return Policy"
     },
     "contact": {
         "title": "Contact",
@@ -57,21 +57,22 @@
         "intro": "Customer satisfaction and trust are our priorities.",
         "items": [
             {
-                "title": "Return Period",
-                "description": "You can return your products within 7 days without specifying any reason."
+                "title": "Product Storage Conditions",
+                "description": "Products to be returned must be unopened. Vial bottles should be stored in a cool and shaded environment away from direct sunlight. Capsules, liquid products, and powder products should be stored at room temperature."
             },
             {
-                "title": "Conditions",
-                "description": "The packaging of the products to be returned must be unopened, undamaged, and in resalable condition."
+                "title": "Original Condition and Packaging",
+                "description": "For the return of products, they must be in the condition they were purchased and in their original packaging. Returns of opened or partially used products are not accepted."
             },
             {
-                "title": "Refund",
-                "description": "After the return is approved, your payment will be refunded to your original payment method within 3-5 business days."
+                "title": "Return Process",
+                "description": "After your returned products are inspected, you will be informed about the refund status. The refund amount will be transferred to your bank account. However, packaging, labor, and shipping fees will be deducted from the refund amount."
             },
             {
-                "title": "Shipping",
-                "description": "Except for faulty or defective products, the return shipping cost belongs to the buyer."
+                "title": "Shipping Costs",
+                "description": "You are responsible for covering your own shipping costs to return your products."
             }
-        ]
+        ],
+        "footerNote": "You can perform your return transactions in accordance with the above conditions. For more information or support, please contact us."
     }
 }

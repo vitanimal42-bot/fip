@@ -8,8 +8,10 @@ export const site = {
     phone: "+90 533 351 90 50",
     whatsapp: "https://wa.me/905333519050",
     instagram: "https://www.instagram.com/fipgl23",
-    youtube:
-      "https://www.youtube.com/watch?v=xEMIDIKTVCQ&list=PLo7XYrMRRhiwhw9Yu3FC4JsiIgUldpbQG&pp=iAQB",
+    youtube: "https://www.youtube.com/@fipgl23turkiye",
+    twitter: "https://x.com/fipgl23turkiye",
+    facebook: "https://www.facebook.com/people/Fipgl-Cat/100095509774674/",
+    pinterest: "https://tr.pinterest.com/fipwars/",
   },
   assets: {
     logo: "/assets/source/logo-qcm82rdrqt3loak1ztdtrztsci5gzny23v38c2ksn4.png",

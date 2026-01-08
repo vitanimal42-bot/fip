@@ -4,8 +4,7 @@ name: Injectable
 badge: Injection
 description: "Injectable form products are applied subcutaneously via syringe and provide rapid effect."
 details:
-  - "Preferred when giving oral products to a cat is difficult."
-  - "1 Vial contains 9ml of product"
+  - "Injectable products provide critical clinical benefits in the early and severe stages of FIP treatment by providing rapid absorption and precise dosage control."
 images:
   - /assets/source/vial2.png
   - /assets/source/vial3.png
@@ -74,8 +73,21 @@ priceList:
     price: "2900 TL"
 order: 3
 ---
-## What does Injectable Form mean?
+FIP (Feline Infectious Peritonitis) treatment is a serious clinical process that requires rapid and effective intervention. The pharmaceutical form and quality of the product used in this process are the most important factors determining the success of the treatment. Injectable form products have a critical place, especially in the early stages of treatment and in severe clinical cases.
 
-Injectable form products usually involve the direct administration of liquid active ingredients into the body via a syringe. It is given by subcutaneous injection and shows its effect either locally or systematically.
+### Rapid absorption and bioavailability
+Injectable products enter the systemic circulation rapidly without passing through the gastrointestinal tract. This situation is vital for FIP cases with severe clinical symptoms and general condition disorders.
 
-Particularly when it is difficult to give oral products or other forms to the cat, injectable form products can provide an effective and fast treatment option. Dosage should be adjusted according to the usage instructions and used in accordance with FIPGL23 recommendations.
+### Precise and safe dosage control
+Injectable application provides the opportunity to apply the exact amount of dose determined by the veterinarian. Dose losses that may be encountered in oral applications (vomiting, loss of appetite, etc.) are eliminated in injectable form.
+
+### Vital importance in acute and neurological cases
+Injectable form is the first choice, especially in neurological and ocular FIP cases where the blood-brain barrier needs to be crossed and in acute cases where the general condition is rapidly deteriorating. High bioavailability ensures that the active substance reaches the target tissues at the desired level.
+
+### Continuity and monitoring of treatment
+The start of treatment with injectable form allows the patient's response to be observed more clearly. Clinicians can determine the response to treatment more accurately by providing dose standardization.
+
+### Professional treatment management
+Injectable application allows for the treatment protocol to be followed more strictly under the supervision of a veterinarian and the clinic. This is a critical factor in minimizing the risk of treatment failure.
+
+Injectable form products provide the clinician and the patient owner with the most reliable start and support in the fight against FIP, with their high efficacy and rapid response.

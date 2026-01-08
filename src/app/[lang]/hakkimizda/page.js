@@ -9,43 +9,92 @@ export default async function HakkimizdaPage({ params }) {
     notFound();
   }
 
-  return (
-    <div className="section">
-      <div className="container stack">
-        {/* Header */}
-        <div className="section__header">
-          <span className="eyebrow">{page.eyebrow}</span>
-          <h1 className="headline headline--lg">{page.title}</h1>
-          <p className="subhead">{page.subtitle}</p>
-        </div>
+  // Split content by the horizontal rule
+  const contentParts = page.contentHtml.split('<hr>');
 
-        {/* Content Section */}
-        <section className="card card--product stack">
-          <div className="grid-2" style={{ alignItems: "center" }}>
+  return (
+    <div className="section" style={{ background: 'white', padding: '60px 0' }}>
+      <div className="container stack" style={{ gap: '100px' }}>
+
+        {/* Section 1: Image Left, Content Right */}
+        <section className="grid-2" style={{ alignItems: "flex-start", gap: '60px' }}>
+          <div style={{ position: 'relative' }}>
+            <img
+              src={page.image1 || "/assets/source/ofis.png"}
+              alt="FIPGL23 About"
+              style={{
+                width: "100%",
+                borderRadius: "20px",
+                boxShadow: "0 20px 40px rgba(0,0,0,0.1)",
+                objectFit: 'cover'
+              }}
+            />
+          </div>
+          <div className="stack" style={{ gap: '20px' }}>
+            <h2 style={{
+              color: '#3498db',
+              fontSize: '1.2rem',
+              fontFamily: 'sans-serif',
+              fontWeight: '600',
+              margin: 0
+            }}>
+              {page.eyebrow}
+            </h2>
             <div
               className="markdown"
-              dangerouslySetInnerHTML={{ __html: page.contentHtml }}
+              style={{
+                fontSize: '0.95rem',
+                lineHeight: '1.7',
+                color: '#666',
+                textAlign: 'justify'
+              }}
+              dangerouslySetInnerHTML={{ __html: contentParts[0] }}
             />
-            <div className="product-card__media">
-              <img
-                src="/content/about-office.png"
-                alt="FIPGL23 Office"
-                className="rounded-lg shadow-lg"
-              />
-            </div>
           </div>
         </section>
 
-        {/* Icons/Process (Visuals retained) */}
-        <section className="grid-2" style={{ marginTop: "40px" }}>
-          <div className="card card--feature" style={{ alignItems: "flex-start", textAlign: "left" }}>
+        {/* Section 2: Header Top, Text Left (2 cols), Image Right */}
+        <section className="grid-2" style={{
+          gridTemplateColumns: '1.6fr 1fr',
+          alignItems: "center",
+          gap: '60px'
+        }}>
+          <div className="stack" style={{ gap: '30px' }}>
+            <h2 style={{
+              color: '#3498db',
+              fontSize: '2.4rem',
+              fontFamily: 'sans-serif',
+              lineHeight: '1.2',
+              fontWeight: '600',
+              maxWidth: '90%'
+            }}>
+              {page.subtitle}
+            </h2>
+            <div
+              className="markdown"
+              style={{
+                columnCount: 2,
+                columnGap: '30px',
+                fontSize: '0.9rem',
+                lineHeight: '1.6',
+                color: '#777'
+              }}
+              dangerouslySetInnerHTML={{ __html: contentParts[1] || '' }}
+            />
+          </div>
+          <div style={{ position: 'relative' }}>
             <img
-              src="/content/about-process.png"
-              alt="Quality Process"
-              style={{ width: "100%", borderRadius: "12px", marginBottom: "20px" }}
+              src={page.image2 || "/assets/source/image-83425-800.png"}
+              alt="FIPGL23 Team"
+              style={{
+                width: "100%",
+                borderRadius: "20px",
+                boxShadow: "0 15px 35px rgba(0,0,0,0.1)"
+              }}
             />
           </div>
         </section>
+
       </div>
     </div>
   );

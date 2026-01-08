@@ -26,7 +26,6 @@ export default async function FormsPage({ params }) {
                     <a
                       className="button"
                       href={form.pdfUrl}
-                      download={form.downloadName || undefined}
                       target="_blank"
                       rel="noreferrer"
                     >

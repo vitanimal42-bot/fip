@@ -20,7 +20,6 @@ export default async function HomePage({ params }) {
         <div className="container hero__content fade-in">
           <h1 className="headline">{dict.home.heroTitle}</h1>
           <p className="hero__subtitle">{dict.home.heroSubtitle}</p>
-          <p className="subhead" style={{ color: 'white', opacity: 0.9 }}>{dict.common.legalNote}</p>
 
           <div className="hero__actions">
             <Link className="button" href={`/${lang}/urunlerimiz`}>

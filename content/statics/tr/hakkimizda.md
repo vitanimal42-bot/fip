@@ -1,25 +1,25 @@
 ---
-title: Hakkımızda
-subtitle: Bilimin ışığında, sevginin gücüyle kediler için çalışıyoruz.
-eyebrow: Hikayemiz ve Amacımız
+title: FIPGL23 Hakkımızda
+subtitle: Siz ve sevimli dostlarınız için en iyisini sunmak için buradayız
+eyebrow: Hakkımızda
+image1: /assets/source/ofis.png
+image2: /assets/source/image-83425-800.png
 ---
-### Biz Kimiz?
 
-FIPGL23, kedi sahiplerine ve veteriner hekimlere; Feline Infectious Peritonitis (FIP) hastalığı ile mücadelede bilimsel araştırmalara dayalı, güvenilir ve etkili çözümler sunan bir kuruluştur.
+FIPGL23 olarak, kedi sahiplerinin sevdikleri dostlarının sağlığını korumak ve iyileştirmek için en son teknoloji ve araştırmalardan yararlanarak kapsamlı bir çözüm sunmayı amaçlıyoruz. Kedilerde yaygın olarak görülen ve oldukça ciddi sonuçlara yol açabilen FIP (Feline Infectious Peritonitis) hastalığının tedavisi konusunda uzmanlaşmış bir ekibiz.
 
-Amacımız sadece ürün temin etmek değil, aynı zamanda hasta sahiplerine bu zorlu süreçte doğru bilgi ve rehberlik sağlamaktır.
+FIPGL23 olarak, bilimsel araştırmalardan elde edilen sonuçları ve teknolojiyi kullanarak etkili ve güvenilir bir tedavi yöntemi geliştirdik. Amacımız, FIP hastalığıyla mücadelede yeni bir dönemi başlatmak ve kedilere umut vermek.
 
-### Temel Değerlerimiz
+FIPGL23 ailesi olarak, değerlerimizden ödün vermeden çalışıyoruz. İnsan, hayvan ve çevre sağlığını korumaya yönelik en yüksek standartları benimsiyor ve bu doğrultuda hareket ediyoruz. Ürünlerimizin kalitesini ve etkinliğini sürekli olarak kontrol ediyor ve geliştirme çalışmalarına büyük önem veriyoruz.
 
-*   **Güvenilirlik ve Şeffaflık:** Tedarik sürecinden son kullanıcıya ulaşana kadar tüm adımlarda şeffaf olmayı ve verdiğimiz sözleri tutmayı ilke edindik.
-*   **Yüksek Kalite Standartları:** Ürünlerimiz, uluslararası kabul görmüş **GMP (Good Manufacturing Practices)** ve **GLP (Good Laboratory Practices)** standartlarına uygun olarak üretilmektedir.
+Müşteri memnuniyetini ve dostlarımızın sağlığını her şeyin önünde tutuyoruz. Şeffaf iletişim ve müşteri odaklı hizmet anlayışıyla, FIPGL23 olarak kedilerin yaşam kalitesini artırmak için kararlı bir şekilde çalışıyoruz.
 
-### Etik Yaklaşımımız
+FIPGL23 olarak, FIP hastalığını tedavi etmek için güvenilir bir ortak olmaktan gurur duyuyoruz. Gelecekte de kedilerin sağlığına katkıda bulunmaya devam edeceğiz.
 
-Faaliyetlerimizi sürdürürken sadece ticari kaygılarla değil, etik kurallar çerçevesinde hareket ediyoruz. Hayvan sağlığını, çevre güvenliğini ve insan sağlığını her şeyin üzerinde tutuyoruz.
+---
 
-### Vizyonumuz
+**Güvenilirlik** müşteri ve temsilcilerimize karşı güvenilirliğimizi sağlama amacımız, ticari faaliyetlerimizi evrensel etik kurallara uygun şekilde gerçekleştirme ilkesine dayanır. Bu doğrultuda, üst düzeyde ürün kalitesi sunmayı hedefleriz.
 
-FIP hastalığının "tedavisiz ve ölümcül" olduğu algısını yıkarak, her kedinin yaşama şansı olduğunu kanıtlamak ve global çapta erişilebilir tedavi çözümleri sunmaktır.
+**Ürün kalitesi** ürünlerimizin kalite standartlarına uygunluğunu sağlamak için kalite onaylı malzemeler kullanırız. Üretim süreçlerimizi, iyi imalat uygulamaları (GMP) ve iyi laboratuvar uygulamaları (GLP) standartlarına uygun şekilde düzenleriz.
 
-> "Müşteri memnuniyetini en üst düzeyde tutmak, beklentilerin ötesine geçmek için sürekli kendimizi geliştiriyoruz. Can dostlarınızın sağlığı, bizim en büyük önceliğimizdir."
+**Sağlık ve çevre** insan, hayvan ve çevre sağlığını gözetme taahhüdümüz, üretim ve pazarlama süreçlerinde gerekli tedbirleri almayı ve uygulamayı içerir. Bu çerçevede, sağlık ve çevre risklerini minimize etmek için titizlikle çalışırız.

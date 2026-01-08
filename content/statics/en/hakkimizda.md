@@ -1,25 +1,25 @@
 ---
-title: About Us
-subtitle: We work for cats in the light of science and with the power of love.
-eyebrow: Our Story and Goal
+title: FIPGL23 About Us
+subtitle: We are here to offer the best for you and your lovely friends
+eyebrow: About Us
+image1: /assets/source/ofis.png
+image2: /assets/source/image-83425-800.png
 ---
-### Who Are We?
 
-FIPGL23 is an organization that provides reliable and effective solutions based on scientific research in the fight against Feline Infectious Peritonitis (FIP) disease to cat owners and veterinarians.
+As FIPGL23, we aim to provide a comprehensive solution by utilizing the latest technology and research to protect and improve the health of cat owners' beloved friends. We are a team specialized in the treatment of FIP (Feline Infectious Peritonitis), which is common in cats and can lead to very serious consequences.
 
-Our goal is not only to provide products but also to provide accurate information and guidance to pet owners during this challenging process.
+As FIPGL23, we have developed an effective and reliable treatment method using results from scientific research and technology. Our goal is to start a new era in the fight against FIP disease and give hope to cats.
 
-### Our Core Values
+As the FIPGL23 family, we work without compromising our values. We adopt and act in accordance with the highest standards for protection of human, animal, and environmental health. We constantly monitor the quality and efficacy of our products and give great importance to development studies.
 
-*   **Reliability and Transparency:** We have adopted the principle of being transparent in all steps from the supply process to the end-user and keeping our promises.
-*   **High Quality Standards:** Our products are manufactured in accordance with internationally recognized **GMP (Good Manufacturing Practices)** and **GLP (Good Laboratory Practices)** standards.
+We put customer satisfaction and the health of our friends above everything else. With a transparent communication and customer-oriented service approach, as FIPGL23, we work determinedly to increase the quality of life of cats.
 
-### Our Ethical Approach
+As FIPGL23, we are proud to be a reliable partner in treating FIP disease. We will continue to contribute to the health of cats in the future as well.
 
-While continuing our activities, we act not only with commercial concerns but within the framework of ethical rules. We prioritize animal health, environmental safety, and human health above everything else.
+---
 
-### Our Vision
+**Reliability** Our goal of providing reliability towards our customers and representatives is based on the principle of conducting our commercial activities in accordance with universal ethical rules. In this direction, we aim to offer product quality at a high level.
 
-Our vision is to shatter the perception that FIP disease is "untreatable and fatal," proving that every cat has a chance to live, and offering globally accessible treatment solutions.
+**Product quality** We use quality-approved materials to ensure the compliance of our products with quality standards. We organize our production processes in accordance with Good Manufacturing Practices (GMP) and Good Laboratory Practices (GLP) standards.
 
-> "We are constantly improving ourselves to keep customer satisfaction at the highest level and to go beyond expectations. The health of your soulmates is our greatest priority."
+**Health and environment** Our commitment to observing human, animal, and environmental health includes taking and implementing necessary measures in production and marketing processes. In this framework, we work meticulously to minimize health and environmental risks.

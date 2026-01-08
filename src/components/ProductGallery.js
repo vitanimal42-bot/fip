@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 
-export default function ProductGallery({ images, productName }) {
+export default function ProductGallery({ images, productName, badge }) {
     const [activeImage, setActiveImage] = useState(images[0]);
 
     if (!images || images.length === 0) return null;
@@ -27,6 +27,20 @@ export default function ProductGallery({ images, productName }) {
                     marginBottom: "20px"
                 }}
             >
+                {badge && (
+                    <span
+                        className="badge"
+                        style={{
+                            position: "absolute",
+                            top: "20px",
+                            right: "20px",
+                            zIndex: 10,
+                            boxShadow: "0 4px 12px rgba(0,0,0,0.1)"
+                        }}
+                    >
+                        {badge}
+                    </span>
+                )}
                 <Image
                     src={activeImage}
                     alt={productName}

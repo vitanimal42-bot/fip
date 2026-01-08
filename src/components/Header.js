@@ -63,13 +63,20 @@ export default function Header({ dict, lang, productLinks = [] }) {
             if (item.children) {
               return (
                 <div className="nav__dropdown" key={item.label}>
-                  <button className="nav__link" type="button">
+                  <Link
+                    href={item.href}
+                    className="nav__link"
+                    onClick={(e) => e.currentTarget.blur()}
+                  >
                     {item.label}
-                  </button>
+                  </Link>
                   <div className="nav__panel">
-                    <Link href={item.href}>{item.label}</Link>
                     {item.children.map((child) => (
-                      <Link key={child.href} href={child.href}>
+                      <Link
+                        key={child.href}
+                        href={child.href}
+                        onClick={(e) => e.currentTarget.blur()}
+                      >
                         {child.label}
                       </Link>
                     ))}

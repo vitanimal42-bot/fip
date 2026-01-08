@@ -37,6 +37,7 @@ export default async function ProductDetailPage({ params }) {
               <ProductGallery
                 images={Array.from(new Set([product.heroImage, ...(product.images || [])].filter(Boolean)))}
                 productName={product.name}
+                badge={product.badge}
               />
 
               <div className="card card--soft" style={{ marginTop: "24px" }}>
@@ -51,22 +52,9 @@ export default async function ProductDetailPage({ params }) {
                   <p className="subhead">High purity, laboratory-approved formula.</p>
                 )}
               </div>
-            </div>
 
-            {/* RIGHT: Info & Actions */}
-            <div className="stack">
-              <div>
-                <span className="badge" style={{ position: "static", marginBottom: "16px" }}>{product.badge}</span>
-                <h2 className="headline" style={{ fontSize: "2.5rem", marginBottom: "24px" }}>{product.name}</h2>
-                <div
-                  className="markdown"
-                  style={{ fontSize: "1.1rem", lineHeight: "1.8", color: "var(--ink-soft)" }}
-                  dangerouslySetInnerHTML={{ __html: product.contentHtml || "" }}
-                />
-              </div>
-
-              {/* Price List Card */}
-              <div className="card" style={{ borderLeft: "6px solid var(--hope)" }}>
+              {/* Price List Card (Moved to Left) */}
+              <div className="card" style={{ marginTop: "24px", borderLeft: "6px solid var(--hope)" }}>
                 <h3 style={{ marginBottom: "20px" }}>{lang === 'tr' ? 'Güncel Fiyat Listesi' : lang === 'en' ? 'Current Price List' : 'Текущий прайс-лист'}</h3>
                 <div className="stack" style={{ gap: "12px" }}>
                   {product.priceList.map((row) => (
@@ -93,6 +81,18 @@ export default async function ProductDetailPage({ params }) {
                   ))}
                 </div>
               </div>
+            </div>
+
+            {/* RIGHT: Info & Actions */}
+            <div className="stack">
+              <div>
+                <h2 className="headline" style={{ fontSize: "2.5rem", marginBottom: "24px" }}>{product.name}</h2>
+                <div
+                  className="markdown"
+                  style={{ fontSize: "1.1rem", lineHeight: "1.8", color: "var(--ink-soft)" }}
+                  dangerouslySetInnerHTML={{ __html: product.contentHtml || "" }}
+                />
+              </div>
 
               {/* CTA Buttons */}
               <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginTop: "24px" }}>
@@ -115,7 +115,15 @@ export default async function ProductDetailPage({ params }) {
           <div className="section__header">
             <span className="eyebrow" style={{ justifyContent: 'center' }}>{lang === 'tr' ? 'Kullanım Kılavuzu' : lang === 'en' ? 'User Guide' : 'Руководство'}</span>
             <h2 className="headline" style={{ fontSize: "2rem" }}>{lang === 'tr' ? 'Dozaj ve Uygulama' : lang === 'en' ? 'Dosage and Application' : 'Дозировка и применение'}</h2>
-            <p className="subhead">{lang === 'tr' ? 'Kedinizin ağırlığına göre önerilen kullanım miktarları.' : lang === 'en' ? 'Recommended usage amounts according to your cat\'s weight.' : 'Рекомендуемые дозировки в зависимости от веса вашей кошки.'}</p>
+            <p className="subhead">
+              {product.dosageSubhead || (
+                lang === 'tr'
+                  ? (product.slug === 'enjektable' ? 'Kedinizin ağırlığına göre 24 saatte bir önerilen kullanım miktarları.' : 'Kedinizin ağırlığına göre önerilen kullanım miktarları.')
+                  : lang === 'en'
+                    ? (product.slug === 'enjektable' ? 'Recommended usage amounts every 24 hours according to your cat\'s weight.' : 'Recommended usage amounts according to your cat\'s weight.')
+                    : (product.slug === 'enjektable' ? 'Рекомендуемые дозировки каждые 24 часа в зависимости от веса вашей кошки.' : 'Рекомендуемые дозировки в зависимости от веса вашей кошки.')
+              )}
+            </p>
           </div>
 
           <div className="grid-3">
