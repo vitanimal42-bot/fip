@@ -6,13 +6,13 @@ description: "Tablet form ürünler, sıkıştırılmış toz halindeki aktif bi
 details:
   - "Tablet form ürünler, FIP tedavisinde doğru doz, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 images:
-  - /assets/source/Tablet_01.png
-  - /assets/source/Tablet_01_a.png
-  - /assets/source/Tablet_02.png
-  - /assets/source/Tablet_03.png
-  - /assets/source/Tablet_04.png
-  - /assets/source/Tablet_05.png
-heroImage: /assets/source/Tablet_01.png
+  - /assets/source/tablet_01.png
+  - /assets/source/tablet_01_a.png
+  - /assets/source/tablet_02.png
+  - /assets/source/tablet_03.png
+  - /assets/source/tablet_04.png
+  - /assets/source/tablet_05.png
+heroImage: /assets/source/tablet_01.png
 dosageCards:
   - weight: "1-2 kg"
     lines:
