@@ -6,12 +6,11 @@ description: "Kapsül şişe form ürünler, kapsül içeriği sindirim sistemin
 details:
   - "Kapsül form ürünler, FIP tedavisinde doğru dozun korunması, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 images:
-  - /assets/source/1-2-foto-300x200.png
-  - /assets/source/2-3-foto-300x200.png
-  - /assets/source/3-4-foto-300x200.png
-  - /assets/source/4-5-fot0-300x200.png
-  - /assets/source/5-6-foto-300x200.png
-heroImage: /assets/source/1-2-foto-300x200.png
+  - /assets/source/kapsul_01.png
+  - /assets/source/kapsul_02.png
+  - /assets/source/kapsul_03.png
+  - /assets/source/kapsul_04.png
+heroImage: /assets/source/kapsul_01.png
 dosageCards:
   - weight: "0-1 kg"
     lines:

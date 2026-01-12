@@ -6,10 +6,9 @@ description: "Enjekte edilebilir form ürünler, şırınga aracılığıyla der
 details:
   - "Enjektabl ürünler; FIP tedavisinde hızlı etki, yüksek biyoyararlanım ve kesin doz kontrolü sağlayarak özellikle tedavinin kritik ve erken dönemlerinde önemli avantajlar sunar. Ağır vakalarda yutma refleksinin olmadığı, kedinin yemek yemediği veya oral alımın mümkün olmadığı durumlarda ise tedavinin kesintisiz, güvenli ve etkili şekilde sürdürülebilmesi için vazgeçilmez bir uygulama formudur."
 images:
-  - /assets/source/vial2.png
-  - /assets/source/vial3.png
-  - /assets/source/vial4.png
-heroImage: /assets/source/vial2.png
+  - /assets/source/vial_01.png
+  - /assets/source/vial_02.png
+heroImage: /assets/source/vial_01.png
 dosageCards:
   - weight: "0-1 kg"
     lines:

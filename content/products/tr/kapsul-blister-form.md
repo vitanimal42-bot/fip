@@ -6,12 +6,13 @@ description: "Kapsül form ürünler, aktif bileşenleri kapsül içinde taşır
 details:
   - "Kapsül form ürünler, FIP tedavisinde doğru dozun korunması, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 images:
-  - /assets/source/WhatsApp-Image-2025-05-09-at-21.06.46-3-scaled.png
-  - /assets/source/WhatsApp-Image-2025-05-09-at-21.06.46-2-scaled.png
-  - /assets/source/WhatsApp-Image-2025-05-09-at-21.06.46-4-scaled.png
-  - /assets/source/WhatsApp-Image-2025-05-09-at-21.06.46-1-scaled.png
-  - /assets/source/WhatsApp-Image-2025-05-09-at-21.06.46-scaled.png
-heroImage: /assets/source/WhatsApp-Image-2025-05-09-at-21.06.46-3-scaled.png
+  - /assets/source/kapsul_blister_01.png
+  - /assets/source/kapsul_blister_01a.png
+  - /assets/source/kapsul_blister_02.png
+  - /assets/source/kapsul_blister_03.png
+  - /assets/source/kapsul_blister_04.png
+  - /assets/source/kapsul_blister_05.png
+heroImage: /assets/source/kapsul_blister_01.png
 dosageCards:
   - weight: "1-2 kg"
     lines:
