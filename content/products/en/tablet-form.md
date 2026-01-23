@@ -2,7 +2,7 @@
 slug: tablet-form
 name: Tablet Form
 badge: Oral
-description: "Tablet form products contain active ingredients in compressed powder form."
+description: "Tablet form products contribute to clinical success in FIP treatment by supporting correct dose, regular administration, and long-term treatment compliance."
 details:
   - "Tablet form products contribute to clinical success in FIP treatment by supporting correct dose, regular administration, and long-term treatment compliance."
 images:
@@ -46,7 +46,23 @@ dosageCards:
       - "Evening 1 piece"
 priceList:
   - name: "FIPGL23 Tablet Form"
-    weight: "1 kg-6 kg"
+    weight: "1-2 kg"
+    unit: "1 Box"
+    price: "2600 TL"
+  - name: "FIPGL23 Tablet Form"
+    weight: "2-3 kg"
+    unit: "1 Box"
+    price: "2600 TL"
+  - name: "FIPGL23 Tablet Form"
+    weight: "3-4 kg"
+    unit: "1 Box"
+    price: "2600 TL"
+  - name: "FIPGL23 Tablet Form"
+    weight: "4-5 kg"
+    unit: "1 Box"
+    price: "2600 TL"
+  - name: "FIPGL23 Tablet Form"
+    weight: "5-6 kg"
     unit: "1 Box"
     price: "2600 TL"
 extraNote: "A 50% price difference is applied for cats over 6 kg."

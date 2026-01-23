@@ -1,9 +1,9 @@
 "use client";
 
-export default function WhatsAppButton() {
+export default function WhatsAppButton({ link = "https://wa.me/905333519050" }) {
     return (
         <a
-            href="https://wa.me/905333519050"
+            href={link}
             className="whatsapp-sticky"
             target="_blank"
             rel="noopener noreferrer"

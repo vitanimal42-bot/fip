@@ -2,7 +2,7 @@
 slug: kapsul-sise-form
 name: Capsule Bottle Form
 badge: Oral
-description: "Capsule bottle form products show their effect by dissolving the capsule content in the digestive system."
+description: "Capsule form products contribute to clinical success by supporting maintaining the correct dose, regular administration, and long-term treatment compliance in FIP treatment."
 details:
   - "Capsule form products contribute to clinical success by supporting maintaining the correct dose, regular administration, and long-term treatment compliance in FIP treatment."
 images:
@@ -50,7 +50,27 @@ dosageCards:
       - "Evening 1 piece"
 priceList:
   - name: "FIPGL23 Capsule Bottle Form"
-    weight: "0-6 kg"
+    weight: "0-1 kg"
+    unit: "1 Bottle"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Bottle Form"
+    weight: "1-2 kg"
+    unit: "1 Bottle"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Bottle Form"
+    weight: "2-3 kg"
+    unit: "1 Bottle"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Bottle Form"
+    weight: "3-4 kg"
+    unit: "1 Bottle"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Bottle Form"
+    weight: "4-5 kg"
+    unit: "1 Bottle"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Bottle Form"
+    weight: "5-6 kg"
     unit: "1 Bottle"
     price: "2000 TL"
 extraNote: "A 50% price difference is applied for cats over 6 kg."

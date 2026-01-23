@@ -2,7 +2,7 @@
 slug: enjektable
 name: Enjektable
 badge: Enjeksiyon
-description: "Enjekte edilebilir form ürünler, şırınga aracılığıyla deri altına uygulanır ve hızlı etki sağlar."
+description: "Enjektabl ürünler; FIP tedavisinde hızlı etki, yüksek biyoyararlanım ve kesin doz kontrolü sağlayarak özellikle tedavinin kritik ve erken dönemlerinde önemli avantajlar sunar."
 details:
   - "Enjektabl ürünler; FIP tedavisinde hızlı etki, yüksek biyoyararlanım ve kesin doz kontrolü sağlayarak özellikle tedavinin kritik ve erken dönemlerinde önemli avantajlar sunar. Ağır vakalarda yutma refleksinin olmadığı, kedinin yemek yemediği veya oral alımın mümkün olmadığı durumlarda ise tedavinin kesintisiz, güvenli ve etkili şekilde sürdürülebilmesi için vazgeçilmez bir uygulama formudur."
 images:

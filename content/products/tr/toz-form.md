@@ -2,7 +2,7 @@
 slug: toz-form
 name: Toz Form
 badge: Oral
-description: "Toz form ürünler, genellikle sıvı ile karıştırılarak çözelti haline getirilir ve mamaya karıştırılarak uygulanır."
+description: "Toz form ürünler; FIP tedavisinde özellikle sokakta bakılan, yakalanması güç ve elle müdahale zor kedilerde, mama ile kolay uygulanabilen, pratik ve sürdürülebilir bir tedavi desteği sağlar."
 details:
   - "Toz form ürünler; FIP tedavisinde özellikle sokakta bakılan, yakalanması güç ve elle müdahale zor kedilerde, mama ile kolay uygulanabilen, pratik ve sürdürülebilir bir tedavi desteği sağlar."
 images:

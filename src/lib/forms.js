@@ -47,12 +47,12 @@ export const getAllForms = (lang = 'tr') => {
       { slug: 'fgl23-guide-ru', title: 'РУКОВОДСТВО FGL23 2025', summary: 'Официальное руководство FGL23 по инфекционному перитониту кошек.', pdfUrl: '/assets/bilgi-formlari-en/FGL23_GUIDE_2025.pdf' },
       { slug: 'clinical-use-fcgs-fcv-ru', title: 'Клиническое применение FIPGL23 при FCGS, FCV', summary: 'Клиническое применение FIPGL23 при хроническом гингивостоматите и калицивирусе у кошек.', pdfUrl: '/assets/bilgi-formlari-en/Clinical Use of FIPGL23 for FCGS,FCV.pdf' },
       { slug: 'molnupiravir-efficacy-ru', title: 'Эффективность Молнупиравира', summary: 'Противовирусная эффективность при неврологической форме ФИП.', pdfUrl: '/assets/bilgi-formlari-en/Antiviral Efficacy of Molnupiravir in the Neurological Form of FIPV.pdf' },
-      { slug: 'challenging-cases-ru', title: 'Сложные и резистентные случаи ФИП', summary: 'Управление трудными и устойчивыми случами ФИП.', pdfUrl: '/assets/bilgi-formlari-en/Challenging and Refractory FIP Cases.pdf' },
-      { slug: 'clinical-response-ru', title: 'Клинический ответ при ФИП', summary: 'Ремиссия и клинический ответ в неврологических случаях.', pdfUrl: '/assets/bilgi-formlari-en/Clinical Response and Remission in Neurological FIP.pdf' },
-      { slug: 'immune-modulation-ru', title: 'Модуляция иммунного ответа', summary: 'Модуляция иммунного ответа во время терапии ФИП.', pdfUrl: '/assets/bilgi-formlari-en/Modulation of the Immune Response During FIP Therapy.pdf' },
-      { slug: 'diagnostic-approach-ru', title: 'Диагностический подход', summary: 'Серологический и биохимический диагностический подход при ФИП.', pdfUrl: '/assets/bilgi-formlari-en/Serological and Biochemical Diagnostic Approach in FIP.pdf' },
+      { slug: 'challenging-cases-ru', title: 'Сложные и резистентные случаи ФИП', summary: 'Управление трудными и устойчивыми случами ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/Challenging and Refractory FIP Cases.pdf' },
+      { slug: 'clinical-response-ru', title: 'Клинический ответ при ФИП', summary: 'Ремиссия и клинический ответ в неврологических случаях.', pdfUrl: '/assets/bilgi-formlari-ru/Clinical Response and Remission in Neurological FIP.pdf' },
+      { slug: 'immune-modulation-ru', title: 'Модуляция иммунного ответа', summary: 'Модуляция иммунного ответа во время терапии ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/Modulation of the Immune Response During FIP Therapy.pdf' },
+      { slug: 'diagnostic-approach-ru', title: 'Диагностический подход', summary: 'Серологический и биохимический диагностический подход при ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/Serological and Biochemical Diagnostic Approach in FIP.pdf' },
       { slug: 'supportive-therapy-ru', title: 'Поддерживающая терапия', summary: 'Подробности о поддерживающем уходе и дополнительных методах лечения.', pdfUrl: '/assets/bilgi-formlari-en/Supportive and Adjunctive Therapy in FIP.pdf' },
-      { slug: 'ag-ratio-ru', title: 'Соотношение альбумина к глобулину', summary: 'Важность соотношения А/Г в диагностике ФИП.', pdfUrl: '/assets/bilgi-formlari-en/The Albumin-to-Globulin Ratio in FIP.pdf' }
+      { slug: 'ag-ratio-ru', title: 'Соотношение альбумина к глобулину', summary: 'Важность соотношения А/Г в диагностике ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/The Albumin-to-Globulin Ratio in FIP.pdf' }
     ];
   }
 

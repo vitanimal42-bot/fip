@@ -2,7 +2,7 @@
 slug: kapsul-sise-form
 name: Kapsül Şişe Form
 badge: Oral
-description: "Kapsül şişe form ürünler, kapsül içeriği sindirim sisteminde çözülerek etkisini gösterir."
+description: "Kapsül form ürünler, FIP tedavisinde doğru dozun korunması, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 details:
   - "Kapsül form ürünler, FIP tedavisinde doğru dozun korunması, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 images:

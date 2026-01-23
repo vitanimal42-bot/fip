@@ -28,10 +28,12 @@ export async function generateMetadata({ params }) {
 }
 
 import WhatsAppButton from "@/components/WhatsAppButton";
+import { getSocialLinks } from "@/lib/social";
 
 export default async function LocaleLayout({ children, params }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
+  const socialLinks = getSocialLinks();
 
   const productLinks = getAllProducts(lang).map((product) => ({
     label: product.name,
@@ -43,8 +45,8 @@ export default async function LocaleLayout({ children, params }) {
       <body className={`${heading.variable} ${body.variable} antialiased`}>
         <Header dict={dict} lang={lang} productLinks={productLinks} />
         <main>{children}</main>
-        <Footer dict={dict} lang={lang} />
-        <WhatsAppButton />
+        <Footer dict={dict} lang={lang} socialLinks={socialLinks} />
+        <WhatsAppButton link={socialLinks[lang]?.whatsapp || socialLinks['tr']?.whatsapp} />
       </body>
     </html>
   );

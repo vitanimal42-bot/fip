@@ -2,7 +2,7 @@
 slug: tablet-form
 name: Tablet Form
 badge: Oral
-description: "Tablet form ürünler, sıkıştırılmış toz halindeki aktif bileşenleri içerir."
+description: "Tablet form ürünler, FIP tedavisinde doğru doz, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 details:
   - "Tablet form ürünler, FIP tedavisinde doğru doz, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 images:

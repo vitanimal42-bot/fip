@@ -2,7 +2,7 @@
 slug: kapsul-blister-form
 name: Capsule Blister Form
 badge: Oral
-description: "Capsule form products carry active ingredients inside a capsule and are administered directly by mouth."
+description: "Capsule form products contribute to clinical success by supporting maintaining the correct dose, regular administration, and long-term treatment compliance in FIP treatment."
 details:
   - "Capsule form products contribute to clinical success by supporting maintaining the correct dose, regular administration, and long-term treatment compliance in FIP treatment."
 images:
@@ -46,7 +46,23 @@ dosageCards:
       - "Evening 1 piece"
 priceList:
   - name: "FIPGL23 Capsule Form"
-    weight: "1 kg-6 kg"
+    weight: "1 kg-2 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Form"
+    weight: "2 kg-3 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Form"
+    weight: "3 kg-4 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Form"
+    weight: "4 kg-5 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Capsule Form"
+    weight: "5 kg-6 kg"
     unit: "1 Box"
     price: "2000 TL"
 extraNote: "A 50% price difference is applied for cats over 6 kg."

@@ -2,7 +2,7 @@
 slug: toz-form
 name: Powder Form
 badge: Oral
-description: "Powder form products are usually turned into a solution by mixing with liquid and applied by mixing with food."
+description: "Powder form products provide a practical and sustainable treatment support in FIP treatment, especially for cats kept on the street, difficult to catch and difficult to handle, with easy application with food."
 details:
   - "Powder form products provide a practical and sustainable treatment support in FIP treatment, especially for cats kept on the street, difficult to catch and difficult to handle, with easy application with food."
 images:
@@ -50,7 +50,27 @@ dosageCards:
 dosageNote: "These are recommended dosage rates. The dose can be increased according to the course of the disease and veterinarian supervision."
 priceList:
   - name: "FIPGL23 Powder Form"
-    weight: "0-6 kg"
+    weight: "0-1 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Powder Form"
+    weight: "1-2 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Powder Form"
+    weight: "2-3 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Powder Form"
+    weight: "3-4 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Powder Form"
+    weight: "4-5 kg"
+    unit: "1 Box"
+    price: "2000 TL"
+  - name: "FIPGL23 Powder Form"
+    weight: "5-6 kg"
     unit: "1 Box"
     price: "2000 TL"
 order: 5

@@ -2,7 +2,7 @@
 slug: kapsul-blister-form
 name: Kapsül Blister Form
 badge: Oral
-description: "Kapsül form ürünler, aktif bileşenleri kapsül içinde taşır ve doğrudan ağız yoluyla uygulanır."
+description: "Kapsül form ürünler, FIP tedavisinde doğru dozun korunması, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 details:
   - "Kapsül form ürünler, FIP tedavisinde doğru dozun korunması, düzenli uygulama ve uzun süreli tedavi uyumunu destekleyerek klinik başarıya katkı sağlar."
 images:
@@ -45,10 +45,6 @@ dosageCards:
       - "Sabah 1 adet"
       - "Akşam 1 adet"
 priceList:
-  - name: "FIPGL23 Kapsül Form"
-    weight: "0-1 kg"
-    unit: "1 Kutu"
-    price: "2000 TL"
   - name: "FIPGL23 Kapsül Form"
     weight: "1-2 kg"
     unit: "1 Kutu"

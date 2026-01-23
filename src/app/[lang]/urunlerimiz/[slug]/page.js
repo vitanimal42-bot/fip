@@ -5,6 +5,7 @@ import { site } from "@/data/content";
 import { getAllProducts, getProductBySlug } from "@/lib/products";
 import { getDictionary } from "@/i18n/get-dictionary";
 import { getExchangeRates, formatPrice } from "@/lib/currency";
+import { getSocialLinks } from "@/lib/social";
 
 export async function generateStaticParams() {
   const locales = ['tr', 'en', 'ru'];
@@ -21,6 +22,8 @@ export default async function ProductDetailPage({ params }) {
   const dict = await getDictionary(lang);
   const product = getProductBySlug(slug, lang);
   const exchangeRates = await getExchangeRates();
+  const socialData = getSocialLinks();
+  const links = socialData[lang] || socialData['tr'] || {};
 
   if (!product) {
     notFound();
@@ -96,7 +99,7 @@ export default async function ProductDetailPage({ params }) {
 
               {/* CTA Buttons */}
               <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginTop: "24px" }}>
-                <a className="button" href={`https://wa.me/905333519050?text=Hello, I want to get information about ${product.name}.`} target="_blank">
+                <a className="button" href={`${links.whatsapp}?text=Hello, I want to get information about ${product.name}.`} target="_blank">
                   {lang === 'tr' ? 'WhatsApp ile Sipariş' : lang === 'en' ? 'Order via WhatsApp' : 'Заказать через WhatsApp'}
                 </a>
                 <a className="button button--ghost" href={`mailto:${site.contact.email}`}>
@@ -127,27 +130,44 @@ export default async function ProductDetailPage({ params }) {
           </div>
 
           <div className="grid-3">
-            {product.dosageCards.map((card) => (
-              <div className="card card--soft" key={card.weight} style={{ textAlign: "center" }}>
-                <div style={{
-                  background: "var(--brand)",
-                  color: "white",
-                  display: "inline-block",
-                  padding: "8px 24px",
-                  borderRadius: "20px",
-                  fontWeight: "bold",
-                  marginBottom: "20px",
-                  boxShadow: "0 4px 12px rgba(52, 152, 219, 0.3)"
-                }}>
-                  {card.weight}
+            {product.dosageCards.map((card) => {
+              const getCardColor = (weight, slug) => {
+                if (slug !== 'kapsul-sise-form' && slug !== 'kapsul-blister-form') return { bg: 'var(--brand)', shadow: 'rgba(52, 152, 219, 0.3)' };
+
+                const w = weight.replace(/\s+/g, '');
+                if (w.includes('0-1')) return { bg: '#f39c12', shadow: 'rgba(243, 156, 18, 0.3)' }; // Orange
+                if (w.includes('1-2')) return { bg: '#3498db', shadow: 'rgba(52, 152, 219, 0.3)' }; // Blue
+                if (w.includes('2-3')) return { bg: '#27ae60', shadow: 'rgba(39, 174, 96, 0.3)' }; // Green
+                if (w.includes('3-4')) return { bg: '#f1c40f', shadow: 'rgba(241, 196, 15, 0.3)' }; // Yellow
+                if (w.includes('4-5')) return { bg: '#8e44ad', shadow: 'rgba(142, 68, 173, 0.3)' }; // Purple
+                if (w.includes('5-6')) return { bg: '#e74c3c', shadow: 'rgba(231, 76, 60, 0.3)' }; // Red
+                return { bg: 'var(--brand)', shadow: 'rgba(52, 152, 219, 0.3)' };
+              };
+
+              const cardStyle = getCardColor(card.weight, product.slug);
+
+              return (
+                <div className="card card--soft" key={card.weight} style={{ textAlign: "center" }}>
+                  <div style={{
+                    background: cardStyle.bg,
+                    color: "white",
+                    display: "inline-block",
+                    padding: "8px 24px",
+                    borderRadius: "20px",
+                    fontWeight: "bold",
+                    marginBottom: "20px",
+                    boxShadow: `0 4px 12px ${cardStyle.shadow}`
+                  }}>
+                    {card.weight}
+                  </div>
+                  <ul className="list" style={{ textAlign: "left" }}>
+                    {card.lines.map((line) => (
+                      <li key={line}>{line}</li>
+                    ))}
+                  </ul>
                 </div>
-                <ul className="list" style={{ textAlign: "left" }}>
-                  {card.lines.map((line) => (
-                    <li key={line}>{line}</li>
-                  ))}
-                </ul>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>

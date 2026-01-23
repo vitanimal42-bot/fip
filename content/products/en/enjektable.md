@@ -2,7 +2,7 @@
 slug: enjektable
 name: Injectable
 badge: Injection
-description: "Injectable form products are administered subcutaneously via syringe and provide rapid effect."
+description: "Injectable products provide significant advantages in FIP treatment by providing rapid action, high bioavailability and precise dose control, especially in the critical and early stages of treatment."
 details:
   - "Injectable products provide significant advantages in FIP treatment by providing rapid action, high bioavailability and precise dose control, especially in the critical and early stages of treatment. In severe cases where there is no swallowing reflex, the cat is not eating, or oral intake is not possible, it is an indispensable application form for the continuous, safe and effective continuation of treatment."
 images:
