@@ -99,7 +99,12 @@ export default async function ProductDetailPage({ params }) {
 
               {/* CTA Buttons */}
               <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginTop: "24px" }}>
-                <a className="button" href={`${links.whatsapp}?text=Hello, I want to get information about ${product.name}.`} target="_blank">
+                <a className="button" href={`${links.whatsapp}?text=${lang === 'tr'
+                  ? `Merhaba, ${product.name} hakkında bilgi almak istiyorum.`
+                  : lang === 'en'
+                    ? `Hello, I want to get information about ${product.name}.`
+                    : `Здравствуйте, я хочу получить информацию о ${product.name}.`
+                  }`} target="_blank">
                   {lang === 'tr' ? 'WhatsApp ile Sipariş' : lang === 'en' ? 'Order via WhatsApp' : 'Заказать через WhatsApp'}
                 </a>
                 <a className="button button--ghost" href={`mailto:${site.contact.email}`}>
@@ -132,7 +137,7 @@ export default async function ProductDetailPage({ params }) {
           <div className="grid-3">
             {product.dosageCards.map((card) => {
               const getCardColor = (weight, slug) => {
-                if (slug !== 'kapsul-sise-form' && slug !== 'kapsul-blister-form') return { bg: 'var(--brand)', shadow: 'rgba(52, 152, 219, 0.3)' };
+                if (slug !== 'kapsul-sise-form' && slug !== 'kapsul-blister-form' && slug !== 'tablet-form') return { bg: 'var(--brand)', shadow: 'rgba(52, 152, 219, 0.3)' };
 
                 const w = weight.replace(/\s+/g, '');
                 if (w.includes('0-1')) return { bg: '#f39c12', shadow: 'rgba(243, 156, 18, 0.3)' }; // Orange

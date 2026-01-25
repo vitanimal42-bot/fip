@@ -7,7 +7,7 @@ tr:
   pinterest: "https://tr.pinterest.com/fipwars/"
   whatsapp: "https://wa.me/905333519050"
 en:
-  instagram: "https://www.instagram.com/fipgl23caucasus/"
+  instagram: "https://www.instagram.com/fipgl23global/"
   youtube: ""
   twitter: ""
   facebook: ""

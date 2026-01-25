@@ -40,6 +40,12 @@ export default async function FipNedirPage({ params }) {
   const { lang } = await params;
   const dict = await getDictionary(lang);
 
+  const getImage = (key) => {
+    if (lang === 'tr') return `/content/${key}.png`;
+    if (lang === 'ru') return `/rusca/${key}.jpg`;
+    return `/ing/${key}.jpg`;
+  };
+
   const t = {
     tr: {
       title: "FIP HASTALIĞI NEDİR",
@@ -96,7 +102,7 @@ export default async function FipNedirPage({ params }) {
 
         <figure style={{ margin: '40px 0', textAlign: 'center' }}>
           <img
-            src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_174957276-1024x483.png"
+            src={getImage('fip-transmission')}
             alt="FIP Disease"
             style={{ width: '100%', borderRadius: '12px', boxShadow: 'var(--shadow-md)' }}
           />
@@ -109,7 +115,7 @@ export default async function FipNedirPage({ params }) {
         </div>
 
         <div style={{ margin: '32px 0', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_175316990.png" alt="Defense" style={{ maxWidth: '100%', borderRadius: '12px' }} />
+          <img src={getImage('fip-intro')} alt="Defense" style={{ maxWidth: '100%', borderRadius: '12px' }} />
         </div>
 
         <div style={{ margin: '32px 0', textAlign: 'center' }}>
@@ -122,20 +128,24 @@ export default async function FipNedirPage({ params }) {
       </Section>
 
       <Section>
-        <div style={{ margin: '40px 0', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_175543699.png" alt="Spread" style={{ maxWidth: '100%', borderRadius: '12px' }} />
-        </div>
+        {lang === 'tr' && (
+          <>
+            <div style={{ margin: '40px 0', textAlign: 'center' }}>
+              <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_175543699.png" alt="Spread" style={{ maxWidth: '100%', borderRadius: '12px' }} />
+            </div>
 
-        <div style={{ margin: '40px 0', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_175646620-768x141.png" alt="Vessel" style={{ maxWidth: '100%', borderRadius: '12px' }} />
-        </div>
+            <div style={{ margin: '40px 0', textAlign: 'center' }}>
+              <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_175646620-768x141.png" alt="Vessel" style={{ maxWidth: '100%', borderRadius: '12px' }} />
+            </div>
+          </>
+        )}
 
         <div className="markdown">
           <p>{t.p4}</p>
         </div>
 
         <div style={{ margin: '40px 0', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_175847540-1024x516.png" alt="Fluid Accumulation" style={{ width: '100%', borderRadius: '12px' }} />
+          <img src={getImage('fip-monocyte-artery')} alt="Fluid Accumulation" style={{ width: '100%', borderRadius: '12px' }} />
         </div>
       </Section>
 
@@ -145,11 +155,13 @@ export default async function FipNedirPage({ params }) {
             <p>{t.p5}</p>
           </div>
           <div>
-            <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_180114086.png" alt="Granuloma" style={{ width: '100%', borderRadius: '12px' }} />
+            <img src={getImage('fip-granuloma-2')} alt="Granuloma" style={{ width: '100%', borderRadius: '12px' }} />
           </div>
         </div>
         <div style={{ marginTop: '24px', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_180159420.png" alt="Diagram" style={{ maxWidth: '100%', borderRadius: '12px' }} />
+          {lang === 'tr' && (
+            <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_180159420.png" alt="Diagram" style={{ maxWidth: '100%', borderRadius: '12px' }} />
+          )}
         </div>
       </Section>
 
@@ -158,20 +170,24 @@ export default async function FipNedirPage({ params }) {
           <p>{t.p6}</p>
         </div>
 
-        <div style={{ margin: '32px 0', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_180501883.png" alt="Cell Activation" style={{ maxWidth: '100%', borderRadius: '12px' }} />
-        </div>
+        {lang !== 'ru' && (
+          <div style={{ margin: '32px 0', textAlign: 'center' }}>
+            <img src={getImage('fip-cell-network')} alt="Cell Activation" style={{ maxWidth: '100%', borderRadius: '12px' }} />
+          </div>
+        )}
 
-        <div style={{ margin: '32px 0', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_180602172-1024x124.png" alt="Inflammation" style={{ maxWidth: '100%', borderRadius: '12px' }} />
-        </div>
+        {lang === 'tr' && (
+          <div style={{ margin: '32px 0', textAlign: 'center' }}>
+            <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_180602172-1024x124.png" alt="Inflammation" style={{ maxWidth: '100%', borderRadius: '12px' }} />
+          </div>
+        )}
 
         <div className="markdown">
           <p>{t.p7}</p>
         </div>
 
         <div style={{ margin: '32px 0', textAlign: 'center' }}>
-          <img src="https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_180740202-1024x583.png" alt="Edema" style={{ width: '100%', borderRadius: '12px' }} />
+          <img src={getImage('fip-edema')} alt="Edema" style={{ width: '100%', borderRadius: '12px' }} />
         </div>
       </Section>
 

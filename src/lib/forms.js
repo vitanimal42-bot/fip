@@ -51,7 +51,7 @@ export const getAllForms = (lang = 'tr') => {
       { slug: 'clinical-response-ru', title: 'Клинический ответ при ФИП', summary: 'Ремиссия и клинический ответ в неврологических случаях.', pdfUrl: '/assets/bilgi-formlari-ru/Clinical Response and Remission in Neurological FIP.pdf' },
       { slug: 'immune-modulation-ru', title: 'Модуляция иммунного ответа', summary: 'Модуляция иммунного ответа во время терапии ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/Modulation of the Immune Response During FIP Therapy.pdf' },
       { slug: 'diagnostic-approach-ru', title: 'Диагностический подход', summary: 'Серологический и биохимический диагностический подход при ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/Serological and Biochemical Diagnostic Approach in FIP.pdf' },
-      { slug: 'supportive-therapy-ru', title: 'Поддерживающая терапия', summary: 'Подробности о поддерживающем уходе и дополнительных методах лечения.', pdfUrl: '/assets/bilgi-formlari-en/Supportive and Adjunctive Therapy in FIP.pdf' },
+      { slug: 'supportive-therapy-ru', title: 'Поддерживающая терапия', summary: 'Подробности о поддерживающем уходе и дополнительных методах лечения.', pdfUrl: '/assets/bilgi-formlari-ru/Supportive and Adjunctive Therapy in FIP.pdf' },
       { slug: 'ag-ratio-ru', title: 'Соотношение альбумина к глобулину', summary: 'Важность соотношения А/Г в диагностике ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/The Albumin-to-Globulin Ratio in FIP.pdf' }
     ];
   }

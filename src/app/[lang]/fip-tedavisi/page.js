@@ -82,7 +82,7 @@ export default async function TreatmentPage({ params }) {
           text: "Haşlanmış yumurta da iyi bir protein ve besin kaynağı olarak verilebilir. Yumurta kedinizin esansiyel aminoasit ihtiyacını karşılar. Yumurta piştiğinde besin değeri artar. Çiğ yumurta tercih edilmemelidir."
         },
         {
-          img: "https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_191102922.png",
+          img: "/assets/source/resim_2024-04-10_191102922.png",
           text: "Kefir ve yoğurt probiyotik desteği sağlar, sindirimi düzenlemeye yardımcı olur."
         }
       ]
@@ -167,7 +167,7 @@ export default async function TreatmentPage({ params }) {
           text: "Boiled eggs are a good source of protein and essential amino acids. Nutritional value increases when cooked."
         },
         {
-          img: "https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_191102922.png",
+          img: "/assets/source/resim_2024-04-10_191102922.png",
           text: "Kefir and yogurt provide probiotic support and help regulate digestion."
         }
       ]
@@ -252,7 +252,7 @@ export default async function TreatmentPage({ params }) {
           text: "Вареные яйца — отличный источник белка и аминокислот. Сырые яйца не рекомендуются."
         },
         {
-          img: "https://fipgl23.com/wp-content/uploads/2024/04/resim_2024-04-10_191102922.png",
+          img: "/rusca/resim_2024-04-10_191102922.jpg",
           text: "Кефир и йогурт обеспечивают пробиотическую поддержку и помогают пищеварению."
         }
       ]
