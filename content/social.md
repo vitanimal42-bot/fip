@@ -12,12 +12,12 @@ en:
   twitter: ""
   facebook: ""
   pinterest: ""
-  whatsapp: ""
+  whatsapp: "https://wa.me/905333519050"
 ru:
   instagram: "https://www.instagram.com/fipgl23caucasus/"
   youtube: ""
   twitter: ""
   facebook: ""
   pinterest: ""
-  whatsapp: ""
+  whatsapp: "https://wa.me/905333519050"
 ---
