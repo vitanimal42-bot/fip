@@ -44,7 +44,7 @@ export const getAllForms = (lang = 'tr') => {
   if (lang === 'ru') {
     return [
       { slug: 'cat-owner-guide-ru', title: 'Руководство для владельца кошки', summary: 'Подробное информационное руководство по ФИП для владельцев кошек.', pdfUrl: '/assets/bilgi-formlari-en/FIP Cat Owner Information Guide.pdf' },
-      { slug: 'fgl23-guide-ru', title: 'РУКОВОДСТВО FGL23 2025', summary: 'Официальное руководство FGL23 по инфекционному перитониту кошек.', pdfUrl: '/assets/bilgi-formlari-en/FGL23_GUIDE_2025.pdf' },
+      { slug: 'fgl23-guide-ru', title: 'РУКОВОДСТВО FGL23 2025', summary: 'Официальное руководство FGL23 по инфекционному перитониту кошек.', pdfUrl: '/assets/bilgi-formlari-ru/FIPGL-GUIDE-2025.pdf' },
       { slug: 'clinical-use-fcgs-fcv-ru', title: 'Клиническое применение FIPGL23 при FCGS, FCV', summary: 'Клиническое применение FIPGL23 при хроническом гингивостоматите и калицивирусе у кошек.', pdfUrl: '/assets/bilgi-formlari-en/Clinical Use of FIPGL23 for FCGS,FCV.pdf' },
       { slug: 'molnupiravir-efficacy-ru', title: 'Эффективность Молнупиравира', summary: 'Противовирусная эффективность при неврологической форме ФИП.', pdfUrl: '/assets/bilgi-formlari-en/Antiviral Efficacy of Molnupiravir in the Neurological Form of FIPV.pdf' },
       { slug: 'challenging-cases-ru', title: 'Сложные и резистентные случаи ФИП', summary: 'Управление трудными и устойчивыми случами ФИП.', pdfUrl: '/assets/bilgi-formlari-ru/Challenging and Refractory FIP Cases.pdf' },

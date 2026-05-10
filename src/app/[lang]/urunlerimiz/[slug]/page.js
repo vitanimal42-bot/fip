@@ -9,7 +9,6 @@ import { getSocialLinks } from "@/lib/social";
 
 export async function generateStaticParams() {
   const locales = ['tr', 'en', 'ru'];
-  // We need to check all TR slugs since they are the base
   const products = getAllProducts('tr');
 
   return locales.flatMap(lang =>
@@ -56,32 +55,48 @@ export default async function ProductDetailPage({ params }) {
                 )}
               </div>
 
-              {/* Price List Card (Moved to Left) */}
+              {/* Price List Card */}
               <div className="card" style={{ marginTop: "24px", borderLeft: "6px solid var(--hope)" }}>
                 <h3 style={{ marginBottom: "20px" }}>{lang === 'tr' ? 'Güncel Fiyat Listesi' : lang === 'en' ? 'Current Price List' : 'Текущий прайс-лист'}</h3>
                 <div className="stack" style={{ gap: "12px" }}>
-                  {product.priceList.map((row) => (
-                    <div
-                      key={`${row.name}-${row.weight}`}
-                      style={{
-                        display: "flex",
-                        justifyContent: "space-between",
-                        alignItems: "center",
-                        padding: "16px",
-                        background: "var(--warm-bg)",
-                        borderRadius: "12px",
-                        border: "1px solid rgba(0,0,0,0.05)"
-                      }}
-                    >
-                      <div>
-                        <strong style={{ color: "var(--brand-deep)", display: "block" }}>{row.name}</strong>
-                        <span style={{ fontSize: "0.9rem", opacity: 0.8 }}>{row.weight} | {row.unit}</span>
+                  {product.priceList.map((row) => {
+                    // KRİTİK DÜZELTME: Fiyatın geçerli bir sayı olup olmadığını kontrol ediyoruz
+                    const isValidPrice = row.price && 
+                                        row.price !== "" && 
+                                        row.price !== "NaN" && 
+                                        !isNaN(parseFloat(row.price));
+
+                    return (
+                      <div
+                        key={`${row.name}-${row.weight}`}
+                        style={{
+                          display: "flex",
+                          justifyContent: "space-between",
+                          alignItems: "center",
+                          padding: "16px",
+                          background: "var(--warm-bg)",
+                          borderRadius: "12px",
+                          border: "1px solid rgba(0,0,0,0.05)"
+                        }}
+                      >
+                        <div>
+                          <strong style={{ color: "var(--brand-deep)", display: "block" }}>{row.name}</strong>
+                          {(row.weight || row.unit) && (
+                            <span style={{ fontSize: "0.9rem", opacity: 0.8 }}>
+                              {row.weight} {row.weight && row.unit && '|'} {row.unit}
+                            </span>
+                          )}
+                        </div>
+                        
+                        {/* Sadece fiyat geçerliyse formatlayıp gösteriyoruz */}
+                        {isValidPrice && (
+                          <div style={{ fontWeight: "700", fontSize: "1.2rem", color: "var(--ink)" }}>
+                            {formatPrice(row.price, exchangeRates.rates, lang)}
+                          </div>
+                        )}
                       </div>
-                      <div style={{ fontWeight: "700", fontSize: "1.2rem", color: "var(--ink)" }}>
-                        {formatPrice(row.price, exchangeRates.rates, lang)}
-                      </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             </div>
@@ -97,7 +112,6 @@ export default async function ProductDetailPage({ params }) {
                 />
               </div>
 
-              {/* CTA Buttons */}
               <div style={{ display: "flex", gap: "16px", flexWrap: "wrap", marginTop: "24px" }}>
                 <a className="button" href={`${links.whatsapp}?text=${lang === 'tr'
                   ? `Merhaba, ${product.name} hakkında bilgi almak istiyorum.`
@@ -122,7 +136,7 @@ export default async function ProductDetailPage({ params }) {
         <div className="container stack">
           <div className="section__header">
             <span className="eyebrow" style={{ justifyContent: 'center' }}>{lang === 'tr' ? 'Kullanım Kılavuzu' : lang === 'en' ? 'User Guide' : 'Руководство'}</span>
-            <h2 className="headline" style={{ fontSize: "2rem" }}>{lang === 'tr' ? 'Dozaj ve Uygulama' : lang === 'en' ? 'Dosage and Application' : 'Дозировка и применение'}</h2>
+            <h2 className="headline" style={{ fontSize: "2rem" }}>{lang === 'tr' ? 'Dozaj ve Uygulama' : lang === 'en' ? 'Dosage and Application' : 'Дозировка ve uygulama'}</h2>
             <p className="subhead">
               {product.dosageSubhead || (
                 lang === 'tr'
@@ -140,12 +154,12 @@ export default async function ProductDetailPage({ params }) {
                 if (slug !== 'kapsul-sise-form' && slug !== 'kapsul-blister-form' && slug !== 'tablet-form') return { bg: 'var(--brand)', shadow: 'rgba(52, 152, 219, 0.3)' };
 
                 const w = weight.replace(/\s+/g, '');
-                if (w.includes('0-1')) return { bg: '#f39c12', shadow: 'rgba(243, 156, 18, 0.3)' }; // Orange
-                if (w.includes('1-2')) return { bg: '#3498db', shadow: 'rgba(52, 152, 219, 0.3)' }; // Blue
-                if (w.includes('2-3')) return { bg: '#27ae60', shadow: 'rgba(39, 174, 96, 0.3)' }; // Green
-                if (w.includes('3-4')) return { bg: '#f1c40f', shadow: 'rgba(241, 196, 15, 0.3)' }; // Yellow
-                if (w.includes('4-5')) return { bg: '#8e44ad', shadow: 'rgba(142, 68, 173, 0.3)' }; // Purple
-                if (w.includes('5-6')) return { bg: '#e74c3c', shadow: 'rgba(231, 76, 60, 0.3)' }; // Red
+                if (w.includes('0-1')) return { bg: '#f39c12', shadow: 'rgba(243, 156, 18, 0.3)' };
+                if (w.includes('1-2')) return { bg: '#3498db', shadow: 'rgba(52, 152, 219, 0.3)' };
+                if (w.includes('2-3')) return { bg: '#27ae60', shadow: 'rgba(39, 174, 96, 0.3)' };
+                if (w.includes('3-4')) return { bg: '#f1c40f', shadow: 'rgba(241, 196, 15, 0.3)' };
+                if (w.includes('4-5')) return { bg: '#8e44ad', shadow: 'rgba(142, 68, 173, 0.3)' };
+                if (w.includes('5-6')) return { bg: '#e74c3c', shadow: 'rgba(231, 76, 60, 0.3)' };
                 return { bg: 'var(--brand)', shadow: 'rgba(52, 152, 219, 0.3)' };
               };
 

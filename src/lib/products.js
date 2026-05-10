@@ -10,13 +10,35 @@ marked.setOptions({
   headerIds: false,
 });
 
+/**
+ * Fiyatın gerçekten gösterilebilir bir sayı olup olmadığını kontrol eder.
+ */
+const isValidPriceValue = (value) => {
+  if (value === "" || value === null || value === undefined) return false;
+  const num = parseFloat(value);
+  return !isNaN(num) && isFinite(num);
+};
+
+/**
+ * Ürün verilerini standart bir yapıya sokar ve 
+ * boş/hatalı verilerin (NaN gibi) oluşmasını engeller.
+ */
 const normalizeProduct = (data) => {
   const order = Number(data.order);
   const images = Array.isArray(data.images) ? data.images : [];
 
+  // Fiyat listesini en baştan temizliyoruz
+  const cleanPriceList = (Array.isArray(data.priceList) ? data.priceList : []).map(item => {
+    return {
+      ...item,
+      // Eğer geçerli bir sayı değilse kesinlikle boş string yap
+      price: isValidPriceValue(item.price) ? String(item.price) : ""
+    };
+  });
+
   return {
-    slug: data.slug,
-    name: data.name || data.slug,
+    slug: data.slug || "",
+    name: data.name || data.slug || "",
     badge: data.badge || "",
     description: data.description || "",
     details: Array.isArray(data.details) ? data.details : [],
@@ -24,7 +46,7 @@ const normalizeProduct = (data) => {
     heroImage: data.heroImage || images[0] || "",
     dosageCards: Array.isArray(data.dosageCards) ? data.dosageCards : [],
     dosageNote: data.dosageNote || "",
-    priceList: Array.isArray(data.priceList) ? data.priceList : [],
+    priceList: cleanPriceList,
     extraNote: data.extraNote || "",
     order: Number.isFinite(order) ? order : 999,
   };
@@ -47,7 +69,6 @@ export const getAllProducts = (lang = 'tr') => {
   const productsDirectory = path.join(productsBaseDirectory, lang);
 
   if (!fs.existsSync(productsDirectory)) {
-    // If specific lang doesn't exist, fallback to 'tr'
     const fallbackDir = path.join(productsBaseDirectory, 'tr');
     if (!fs.existsSync(fallbackDir)) return [];
 
@@ -74,7 +95,6 @@ export const getAllProducts = (lang = 'tr') => {
 };
 
 export const getProductBySlug = (slug, lang = 'tr') => {
-  // Always fetch the Turkish version as the "Master" for prices
   const trPath = path.join(productsBaseDirectory, 'tr', `${slug}.md`);
   const trProductRaw = readProductFile(trPath);
   const trProduct = trProductRaw ? normalizeProduct(trProductRaw) : null;
@@ -87,7 +107,6 @@ export const getProductBySlug = (slug, lang = 'tr') => {
     };
   }
 
-  // For other languages, fetch the translated file
   const productsDirectory = path.join(productsBaseDirectory, lang);
   const filePath = path.join(productsDirectory, `${slug}.md`);
   let productRaw = readProductFile(filePath);
@@ -95,14 +114,14 @@ export const getProductBySlug = (slug, lang = 'tr') => {
   if (productRaw) {
     const langProduct = normalizeProduct(productRaw);
 
-    // Sync priceList from TR to ensure consistency
     if (trProduct && trProduct.priceList) {
-      // We map the prices from TR to the translated labels in current lang
       langProduct.priceList = langProduct.priceList.map((item, index) => {
-        if (trProduct.priceList[index]) {
+        const trItem = trProduct.priceList[index];
+        if (trItem) {
           return {
             ...item,
-            price: trProduct.priceList[index].price // Overwrite with TR price
+            // TR fiyatı geçerli değilse EN/RU versiyonuna da boş aktar
+            price: isValidPriceValue(trItem.price) ? trItem.price : ""
           };
         }
         return item;
@@ -115,7 +134,6 @@ export const getProductBySlug = (slug, lang = 'tr') => {
     };
   }
 
-  // Fallback to full TR if no translation file exists
   if (trProduct) {
     return {
       ...trProduct,
