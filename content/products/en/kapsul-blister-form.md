@@ -48,59 +48,72 @@ priceList:
   - name: "FIPGL23 Capsule Form"
     weight: "1 kg-2 kg"
     unit: "1 Box"
-    price: "2000 TL"
+    price: "2250 TL"
   - name: "FIPGL23 Capsule Form"
     weight: "2 kg-3 kg"
     unit: "1 Box"
-    price: "2000 TL"
+    price: "2250 TL"
   - name: "FIPGL23 Capsule Form"
     weight: "3 kg-4 kg"
     unit: "1 Box"
-    price: "2000 TL"
+    price: "2250 TL"
   - name: "FIPGL23 Capsule Form"
     weight: "4 kg-5 kg"
     unit: "1 Box"
-    price: "2000 TL"
+    price: "2250 TL"
   - name: "FIPGL23 Capsule Form"
     weight: "5 kg-6 kg"
     unit: "1 Box"
-    price: "2000 TL"
+    price: "2250 TL"
 extraNote: "A 50% price difference is applied for cats over 6 kg."
 order: 1
 ---
+
 FIP (Feline Infectious Peritonitis) treatment is a process that requires long-term, regular, and correct dose administration. The pharmaceutical form of the product used in this process directly affects the success of the treatment. Capsule form products offer significant advantages in terms of ease of administration and dose safety.
 
 ### Correct and standard dose administration
+
 Capsule form:
-* Provides a fixed and standard dose at each administration
-* Reduces the risk of dose errors in home applications
-* Helps maintain the treatment protocol determined by the veterinarian
+
+- Provides a fixed and standard dose at each administration
+- Reduces the risk of dose errors in home applications
+- Helps maintain the treatment protocol determined by the veterinarian
 
 ### Continuity of administration in long-term treatments
+
 FIP treatment usually covers an application period of 90 days or more. Capsule form:
-* Facilitates daily administration
-* Increases owner compliance
-* Reduces the risk of treatment discontinuation
+
+- Facilitates daily administration
+- Increases owner compliance
+- Reduces the risk of treatment discontinuation
 
 ### Reduction of taste and odor problems
+
 Cats are extremely sensitive to taste and odor. Capsule form:
-* Limits direct contact of the active substance within the mouth
-* Reduces the risk of excessive salivation and vomiting
-* Reduces resistance behaviors during administration
+
+- Limits direct contact of the active substance within the mouth
+- Reduces the risk of excessive salivation and vomiting
+- Reduces resistance behaviors during administration
 
 ### Gastrointestinal tolerance
+
 Capsule form products:
-* Dissolve more controlled in the stomach
-* Reduce oral and esophageal irritation
-* Lower the risk of gastrointestinal side effects
+
+- Dissolve more controlled in the stomach
+- Reduce oral and esophageal irritation
+- Lower the risk of gastrointestinal side effects
 
 ### Stability and protection of the active substance
+
 Capsule form:
-* Provides protection against environmental factors such as light and moisture
-* Contributes to the active substance remaining stable throughout the treatment period
+
+- Provides protection against environmental factors such as light and moisture
+- Contributes to the active substance remaining stable throughout the treatment period
 
 ### Less stress for owner and cat
+
 Capsule administration:
-* Completed in a short time
-* Reduces daily administration stress
-* Supports the sustainability of long-term treatments
+
+- Completed in a short time
+- Reduces daily administration stress
+- Supports the sustainability of long-term treatments
